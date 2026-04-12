@@ -1,0 +1,114 @@
+
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\title{The Parasite Machine: A Minimal Relational Logic}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{Abstract}
+We define a minimal machine---the \emph{Parasite}---that operates on relations rather than substances.
+It consists of a directed relation $A \rightarrow B$ and a third position $C$ that acts on the relation itself.
+The third position can operate as noise or as a metastable entity.
+Roles $(A,B,C)$ are not intrinsic and may permute.
+A distance parameter controls the strength of $C$'s action.
+We show how this machine generates structure without conserved quantities or predefined ontology.
+
+\section*{1. Primitive structure}
+We begin with a directed relation:
+\[
+A \rightarrow B
+\]
+and a third position $C$ that acts on the relation:
+\[
+C \triangleright (A \rightarrow B).
+\]
+No assumption is made that $A,B,C$ are substances.
+They are positions within a relational configuration.
+
+\section*{2. Distance and coupling}
+Let $d \ge 0$ denote the distance of $C$ to the relation.
+Define coupling:
+\[
+k = \frac{1}{d + \epsilon}.
+\]
+As $d \to \infty$, $k \to 0$ (negligible influence).
+As $d \to 0$, $k \to \infty$ (dominant influence).
+
+\section*{3. Noise and metastability}
+The third position $C$ operates in two regimes:
+\begin{itemize}[leftmargin=2em]
+\item \textbf{Noise}: perturbative, destabilizing.
+\item \textbf{Metastability}: stabilized, structuring.
+\end{itemize}
+These are not distinct ontologies but regimes of the same position.
+
+\section*{4. Transformation of relations}
+Let $R(A,B)$ denote the baseline relation strength.
+Define a transformation:
+\[
+R'(A,B) = T(R(A,B), C, k).
+\]
+Two cases:
+\begin{align*}
+\text{Noise: } & R' = R + \eta(C)\,k \\
+\text{Metastability: } & R' = R + \alpha \, C \, k
+\end{align*}
+where $\eta$ is a stochastic perturbation and $\alpha$ a scaling constant.
+
+\section*{5. Role permutation}
+Positions are not fixed. Let $\sigma$ be a permutation:
+\[
+(A,B,C) \mapsto \sigma(A,B,C).
+\]
+This encodes sudden reassignment of roles.
+
+\section*{6. Iteration}
+The machine evolves by iteration:
+\begin{enumerate}[leftmargin=2em]
+\item compute transformed relation $R'$
+\item update positions $(A,B,C)$
+\item possibly permute roles
+\item possibly adjust distance $d$
+\end{enumerate}
+Formally:
+\[
+(A,B,C)_{t+1} = \Phi(A,B,C,d).
+\]
+
+\section*{7. Emergence}
+Without assuming:
+\begin{itemize}[leftmargin=2em]
+\item conserved quantities,
+\item substances,
+\end{itemize}
+the system produces:
+\begin{itemize}[leftmargin=2em]
+\item stable regimes,
+\item clusters,
+\item metastable entities,
+\item shifting relations.
+\end{itemize}
+
+\section*{8. Interpretation}
+The Parasite machine demonstrates:
+\begin{itemize}[leftmargin=2em]
+\item structure emerges from relational transformation,
+\item noise and entity are phase regimes,
+\item roles are positional, not intrinsic,
+\item ontology is not presupposed but produced.
+\end{itemize}
+
+\section*{9. Final statement}
+A system of relations, perturbed and stabilized by a third term, can generate entities and structure without recourse to conserved substance or fixed ontology.
+
+\end{document}
