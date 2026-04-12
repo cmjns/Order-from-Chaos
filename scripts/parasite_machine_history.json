@@ -1,0 +1,984 @@
+{
+  "summary": {
+    "final_A": {
+      "label": "A",
+      "intensity": 0.6802,
+      "memory": 0.7072
+    },
+    "final_B": {
+      "label": "C",
+      "intensity": 0.6681,
+      "memory": 0.3128
+    },
+    "final_C": {
+      "label": "B",
+      "intensity": 0.2797,
+      "memory": 0.4566
+    },
+    "final_distance": 4.2188,
+    "final_mode_of_C": "noise",
+    "steps": 40
+  },
+  "history": [
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.6705,
+        "memory": 0.426
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.5101,
+        "memory": 0.082
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.3023,
+        "memory": 0.123
+      },
+      "distance": 1.0,
+      "coupling": 1.0,
+      "mode_of_C": "noise",
+      "relation_strength": 0.6024,
+      "transformed_relation": 0.6002,
+      "role_permuted": false,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.6152,
+        "memory": 0.5293
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.648,
+        "memory": 0.2472
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.2545,
+        "memory": 0.1009
+      },
+      "distance": 0.5,
+      "coupling": 2.0,
+      "mode_of_C": "noise",
+      "relation_strength": 0.5723,
+      "transformed_relation": 0.5105,
+      "role_permuted": false,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.5775,
+        "memory": 0.434
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.7103,
+        "memory": 0.3827
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.2002,
+        "memory": 0.0827
+      },
+      "distance": 1.0,
+      "coupling": 1.0,
+      "mode_of_C": "noise",
+      "relation_strength": 0.5554,
+      "transformed_relation": 0.4431,
+      "role_permuted": false,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.4793,
+        "memory": 0.3559
+      },
+      "B": {
+        "label": "B",
+        "intensity": 1.0614,
+        "memory": 0.4938
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.2831,
+        "memory": 0.0678
+      },
+      "distance": 0.5,
+      "coupling": 2.0,
+      "mode_of_C": "noise",
+      "relation_strength": 0.4872,
+      "transformed_relation": 1.0,
+      "role_permuted": false,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.4432,
+        "memory": 0.2919
+      },
+      "B": {
+        "label": "B",
+        "intensity": 1.1062,
+        "memory": 0.585
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1849,
+        "memory": 0.0556
+      },
+      "distance": 1.0,
+      "coupling": 1.0,
+      "mode_of_C": "noise",
+      "relation_strength": 0.4726,
+      "transformed_relation": 0.6217,
+      "role_permuted": false,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.4275,
+        "memory": 0.2393
+      },
+      "B": {
+        "label": "B",
+        "intensity": 1.0733,
+        "memory": 0.6597
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1319,
+        "memory": 0.0456
+      },
+      "distance": 2.0,
+      "coupling": 0.5,
+      "mode_of_C": "noise",
+      "relation_strength": 0.4727,
+      "transformed_relation": 0.5034,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.4114,
+        "memory": 0.1962
+      },
+      "B": {
+        "label": "B",
+        "intensity": 1.0634,
+        "memory": 0.7209
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1856,
+        "memory": 0.0374
+      },
+      "distance": 2.0,
+      "coupling": 0.5,
+      "mode_of_C": "noise",
+      "relation_strength": 0.47,
+      "transformed_relation": 0.5284,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.4092,
+        "memory": 0.1609
+      },
+      "B": {
+        "label": "B",
+        "intensity": 1.0052,
+        "memory": 0.7712
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1035,
+        "memory": 0.0307
+      },
+      "distance": 2.0,
+      "coupling": 0.5,
+      "mode_of_C": "noise",
+      "relation_strength": 0.4767,
+      "transformed_relation": 0.4356,
+      "role_permuted": true,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.1278,
+        "memory": 0.0251
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.6525,
+        "memory": 0.312
+      },
+      "C": {
+        "label": "B",
+        "intensity": 0.9012,
+        "memory": 0.8123
+      },
+      "distance": 2.0,
+      "coupling": 0.5,
+      "mode_of_C": "metastability",
+      "relation_strength": 0.4506,
+      "transformed_relation": 0.6506,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.1531,
+        "memory": 0.0206
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8043,
+        "memory": 0.4358
+      },
+      "C": {
+        "label": "B",
+        "intensity": 0.8124,
+        "memory": 0.8461
+      },
+      "distance": 2.0,
+      "coupling": 0.5,
+      "mode_of_C": "metastability",
+      "relation_strength": 0.438,
+      "transformed_relation": 0.6083,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.1774,
+        "memory": 0.0169
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8982,
+        "memory": 0.5374
+      },
+      "C": {
+        "label": "B",
+        "intensity": 0.7381,
+        "memory": 0.8738
+      },
+      "distance": 2.0,
+      "coupling": 0.5,
+      "mode_of_C": "metastability",
+      "relation_strength": 0.4325,
+      "transformed_relation": 0.5802,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.1999,
+        "memory": 0.0139
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.9556,
+        "memory": 0.6206
+      },
+      "C": {
+        "label": "B",
+        "intensity": 0.6768,
+        "memory": 0.8965
+      },
+      "distance": 2.0,
+      "coupling": 0.5,
+      "mode_of_C": "metastability",
+      "relation_strength": 0.431,
+      "transformed_relation": 0.5617,
+      "role_permuted": true,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.5889,
+        "memory": 0.7352
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.5697,
+        "memory": 0.0114
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.8847,
+        "memory": 0.6889
+      },
+      "distance": 2.5,
+      "coupling": 0.4,
+      "mode_of_C": "metastability",
+      "relation_strength": 0.5754,
+      "transformed_relation": 0.7741,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.5248,
+        "memory": 0.6028
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.7948,
+        "memory": 0.1893
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.816,
+        "memory": 0.7449
+      },
+      "distance": 2.5,
+      "coupling": 0.4,
+      "mode_of_C": "metastability",
+      "relation_strength": 0.5318,
+      "transformed_relation": 0.6993,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4781,
+        "memory": 0.4943
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.9276,
+        "memory": 0.3352
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.7528,
+        "memory": 0.7908
+      },
+      "distance": 2.5,
+      "coupling": 0.4,
+      "mode_of_C": "metastability",
+      "relation_strength": 0.5036,
+      "transformed_relation": 0.6461,
+      "role_permuted": false,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4501,
+        "memory": 0.4053
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.9738,
+        "memory": 0.4549
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.6873,
+        "memory": 0.8285
+      },
+      "distance": 5.0,
+      "coupling": 0.2,
+      "mode_of_C": "metastability",
+      "relation_strength": 0.4908,
+      "transformed_relation": 0.5563,
+      "role_permuted": true,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.8439,
+        "memory": 0.553
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.7107,
+        "memory": 0.5124
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.6626,
+        "memory": 0.8594
+      },
+      "distance": 10.0,
+      "coupling": 0.1,
+      "mode_of_C": "metastability",
+      "relation_strength": 0.6198,
+      "transformed_relation": 0.703,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.7433,
+        "memory": 0.6335
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.8653,
+        "memory": 0.6002
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.6326,
+        "memory": 0.8847
+      },
+      "distance": 10.0,
+      "coupling": 0.1,
+      "mode_of_C": "metastability",
+      "relation_strength": 0.577,
+      "transformed_relation": 0.643,
+      "role_permuted": true,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.7654,
+        "memory": 0.6721
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.8691,
+        "memory": 0.6994
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.3352,
+        "memory": 0.7254
+      },
+      "distance": 10.0,
+      "coupling": 0.1,
+      "mode_of_C": "noise",
+      "relation_strength": 0.582,
+      "transformed_relation": 0.6072,
+      "role_permuted": false,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.6803,
+        "memory": 0.7311
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.9693,
+        "memory": 0.7535
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.1831,
+        "memory": 0.5949
+      },
+      "distance": 5.0,
+      "coupling": 0.2,
+      "mode_of_C": "noise",
+      "relation_strength": 0.5488,
+      "transformed_relation": 0.6246,
+      "role_permuted": false,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.6261,
+        "memory": 0.7795
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.9663,
+        "memory": 0.7979
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.1721,
+        "memory": 0.4878
+      },
+      "distance": 6.25,
+      "coupling": 0.16,
+      "mode_of_C": "noise",
+      "relation_strength": 0.5357,
+      "transformed_relation": 0.488,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.5797,
+        "memory": 0.6392
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.9706,
+        "memory": 0.8343
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.1173,
+        "memory": 0.4
+      },
+      "distance": 6.25,
+      "coupling": 0.16,
+      "mode_of_C": "noise",
+      "relation_strength": 0.5236,
+      "transformed_relation": 0.4998,
+      "role_permuted": true,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.1717,
+        "memory": 0.328
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.9081,
+        "memory": 0.8641
+      },
+      "C": {
+        "label": "B",
+        "intensity": 0.3138,
+        "memory": 0.5242
+      },
+      "distance": 6.25,
+      "coupling": 0.16,
+      "mode_of_C": "noise",
+      "relation_strength": 0.4299,
+      "transformed_relation": 0.3804,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.2112,
+        "memory": 0.2689
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.889,
+        "memory": 0.8886
+      },
+      "C": {
+        "label": "B",
+        "intensity": 0.189,
+        "memory": 0.4298
+      },
+      "distance": 6.25,
+      "coupling": 0.16,
+      "mode_of_C": "noise",
+      "relation_strength": 0.442,
+      "transformed_relation": 0.4275,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.2403,
+        "memory": 0.2205
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.8921,
+        "memory": 0.9086
+      },
+      "C": {
+        "label": "B",
+        "intensity": 0.1226,
+        "memory": 0.3524
+      },
+      "distance": 6.25,
+      "coupling": 0.16,
+      "mode_of_C": "noise",
+      "relation_strength": 0.4488,
+      "transformed_relation": 0.4582,
+      "role_permuted": false,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.2644,
+        "memory": 0.1808
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.8949,
+        "memory": 0.9251
+      },
+      "C": {
+        "label": "B",
+        "intensity": 0.0735,
+        "memory": 0.289
+      },
+      "distance": 10.0,
+      "coupling": 0.1,
+      "mode_of_C": "noise",
+      "relation_strength": 0.4543,
+      "transformed_relation": 0.4594,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.2804,
+        "memory": 0.1483
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.9149,
+        "memory": 0.9386
+      },
+      "C": {
+        "label": "B",
+        "intensity": 0.0702,
+        "memory": 0.237
+      },
+      "distance": 10.0,
+      "coupling": 0.1,
+      "mode_of_C": "noise",
+      "relation_strength": 0.4558,
+      "transformed_relation": 0.4919,
+      "role_permuted": true,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.1152,
+        "memory": 0.1943
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.4907,
+        "memory": 0.1216
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.8082,
+        "memory": 0.9496
+      },
+      "distance": 7.5,
+      "coupling": 0.1333,
+      "mode_of_C": "metastability",
+      "relation_strength": 0.4675,
+      "transformed_relation": 0.5252,
+      "role_permuted": true,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.7059,
+        "memory": 0.9587
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.4719,
+        "memory": 0.1593
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.2461,
+        "memory": 0.0997
+      },
+      "distance": 7.5,
+      "coupling": 0.1333,
+      "mode_of_C": "noise",
+      "relation_strength": 0.6154,
+      "transformed_relation": 0.7071,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.6274,
+        "memory": 0.9661
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.6997,
+        "memory": 0.3107
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.1349,
+        "memory": 0.0818
+      },
+      "distance": 7.5,
+      "coupling": 0.1333,
+      "mode_of_C": "noise",
+      "relation_strength": 0.5689,
+      "transformed_relation": 0.6545,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.5729,
+        "memory": 0.7922
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.8145,
+        "memory": 0.4347
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.0754,
+        "memory": 0.067
+      },
+      "distance": 7.5,
+      "coupling": 0.1333,
+      "mode_of_C": "noise",
+      "relation_strength": 0.5413,
+      "transformed_relation": 0.565,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.5265,
+        "memory": 0.6496
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.9027,
+        "memory": 0.5365
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.0715,
+        "memory": 0.055
+      },
+      "distance": 7.5,
+      "coupling": 0.1333,
+      "mode_of_C": "noise",
+      "relation_strength": 0.5188,
+      "transformed_relation": 0.5749,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.4912,
+        "memory": 0.5327
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.9518,
+        "memory": 0.6199
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.0587,
+        "memory": 0.0451
+      },
+      "distance": 7.5,
+      "coupling": 0.1333,
+      "mode_of_C": "noise",
+      "relation_strength": 0.5038,
+      "transformed_relation": 0.5489,
+      "role_permuted": true,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.8256,
+        "memory": 0.6883
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.4292,
+        "memory": 0.037
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.2503,
+        "memory": 0.4368
+      },
+      "distance": 7.5,
+      "coupling": 0.1333,
+      "mode_of_C": "noise",
+      "relation_strength": 0.6482,
+      "transformed_relation": 0.7036,
+      "role_permuted": false,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.7376,
+        "memory": 0.7444
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.6191,
+        "memory": 0.2103
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1449,
+        "memory": 0.3582
+      },
+      "distance": 5.625,
+      "coupling": 0.1778,
+      "mode_of_C": "noise",
+      "relation_strength": 0.6054,
+      "transformed_relation": 0.5637,
+      "role_permuted": false,
+      "distance_shifted": true
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.662,
+        "memory": 0.7904
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.7676,
+        "memory": 0.3525
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.0901,
+        "memory": 0.2937
+      },
+      "distance": 4.2188,
+      "coupling": 0.237,
+      "mode_of_C": "noise",
+      "relation_strength": 0.5691,
+      "transformed_relation": 0.5851,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.6031,
+        "memory": 0.8282
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8569,
+        "memory": 0.469
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.0634,
+        "memory": 0.2408
+      },
+      "distance": 4.2188,
+      "coupling": 0.237,
+      "mode_of_C": "noise",
+      "relation_strength": 0.5435,
+      "transformed_relation": 0.5531,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.5617,
+        "memory": 0.6791
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8866,
+        "memory": 0.5646
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.0432,
+        "memory": 0.1975
+      },
+      "distance": 4.2188,
+      "coupling": 0.237,
+      "mode_of_C": "noise",
+      "relation_strength": 0.5296,
+      "transformed_relation": 0.4903,
+      "role_permuted": true,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.7718,
+        "memory": 0.643
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.4164,
+        "memory": 0.1619
+      },
+      "C": {
+        "label": "B",
+        "intensity": 0.3349,
+        "memory": 0.5569
+      },
+      "distance": 4.2188,
+      "coupling": 0.237,
+      "mode_of_C": "noise",
+      "relation_strength": 0.6373,
+      "transformed_relation": 0.7004,
+      "role_permuted": false,
+      "distance_shifted": false
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.6802,
+        "memory": 0.7072
+      },
+      "B": {
+        "label": "C",
+        "intensity": 0.6681,
+        "memory": 0.3128
+      },
+      "C": {
+        "label": "B",
+        "intensity": 0.2797,
+        "memory": 0.4566
+      },
+      "distance": 4.2188,
+      "coupling": 0.237,
+      "mode_of_C": "noise",
+      "relation_strength": 0.5857,
+      "transformed_relation": 0.6697,
+      "role_permuted": false,
+      "distance_shifted": false
+    }
+  ]
+}

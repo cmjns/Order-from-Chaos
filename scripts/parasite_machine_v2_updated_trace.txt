@@ -1,0 +1,268 @@
+====================================================================================================
+PARASITE MACHINE V2 UPDATED - DYNAMICAL TETRALEMMA TRACE
+====================================================================================================
+
+Step 1
+  A: {'label': 'A', 'intensity': 0.7311, 'memory': 0.3932}
+  B: {'label': 'B', 'intensity': 0.4559, 'memory': 0.0656}
+  C: {'label': 'C', 'intensity': 0.4529, 'memory': 0.1476}
+  relation_AB: {'source': 'A', 'target': 'B', 'intensity': 0.5198, 'asymmetry': 0.3077, 'mode': 'identity', 'tetra_state': 'neither'}
+  implied_relation_BA: {'source': 'B', 'target': 'A', 'intensity': 0.5238, 'asymmetry': -0.2769, 'mode': 'identity', 'tetra_state': 'neither'}
+  mode_of_C: noise
+  candidate_tetra_state: neither
+  updated_tetra_state: neither
+  distance=1.0  coupling=1.0
+  conic_regime=ellipse
+  role_permuted=False  distance_shifted=False  mode_shifted=False
+
+Step 2
+  A: {'label': 'A', 'intensity': 0.6871, 'memory': 0.5024}
+  B: {'label': 'B', 'intensity': 0.6169, 'memory': 0.2338}
+  C: {'label': 'C', 'intensity': 0.3479, 'memory': 0.121}
+  relation_AB: {'source': 'A', 'target': 'B', 'intensity': 0.5956, 'asymmetry': 0.3379, 'mode': 'identity', 'tetra_state': 'neither'}
+  implied_relation_BA: {'source': 'B', 'target': 'A', 'intensity': 0.5958, 'asymmetry': -0.3041, 'mode': 'identity', 'tetra_state': 'neither'}
+  mode_of_C: noise
+  candidate_tetra_state: neither
+  updated_tetra_state: neither
+  distance=1.0  coupling=1.0
+  conic_regime=ellipse
+  role_permuted=False  distance_shifted=False  mode_shifted=False
+
+Step 3
+  A: {'label': 'A', 'intensity': 0.6673, 'memory': 0.592}
+  B: {'label': 'B', 'intensity': 0.7909, 'memory': 0.3717}
+  C: {'label': 'C', 'intensity': 0.2683, 'memory': 0.0992}
+  relation_AB: {'source': 'A', 'target': 'B', 'intensity': 0.7181, 'asymmetry': 0.1452, 'mode': 'analogy', 'tetra_state': 'both'}
+  implied_relation_BA: {'source': 'B', 'target': 'A', 'intensity': 0.7122, 'asymmetry': -0.1307, 'mode': 'identity', 'tetra_state': 'both'}
+  mode_of_C: noise
+  candidate_tetra_state: both
+  updated_tetra_state: both
+  distance=0.75  coupling=1.3333
+  conic_regime=mixed
+  role_permuted=False  distance_shifted=True  mode_shifted=True
+
+Step 4
+  A: {'label': 'A', 'intensity': 0.61, 'memory': 0.6654}
+  B: {'label': 'B', 'intensity': 0.9818, 'memory': 0.4848}
+  C: {'label': 'C', 'intensity': 0.391, 'memory': 0.0814}
+  relation_AB: {'source': 'A', 'target': 'B', 'intensity': 0.8564, 'asymmetry': -0.3474, 'mode': 'contrariety', 'tetra_state': 'both'}
+  implied_relation_BA: {'source': 'B', 'target': 'A', 'intensity': 0.5231, 'asymmetry': 0.3216, 'mode': 'analogy', 'tetra_state': 'both'}
+  mode_of_C: noise
+  candidate_tetra_state: affirmed
+  updated_tetra_state: both
+  distance=0.75  coupling=1.3333
+  conic_regime=hyperbola
+  role_permuted=False  distance_shifted=False  mode_shifted=True
+
+Step 5
+  A: {'label': 'A', 'intensity': 0.5511, 'memory': 0.5457}
+  B: {'label': 'B', 'intensity': 0.7441, 'memory': 0.5775}
+  C: {'label': 'C', 'intensity': 0.8755, 'memory': 0.2467}
+  relation_AB: {'source': 'A', 'target': 'B', 'intensity': 0.1136, 'asymmetry': -0.2083, 'mode': 'analogy', 'tetra_state': 'neither'}
+  implied_relation_BA: {'source': 'B', 'target': 'A', 'intensity': 0.1909, 'asymmetry': -0.1875, 'mode': 'contrariety', 'tetra_state': 'neither'}
+  mode_of_C: noise
+  candidate_tetra_state: neither
+  updated_tetra_state: neither
+  distance=0.75  coupling=1.3333
+  conic_regime=mixed
+  role_permuted=False  distance_shifted=False  mode_shifted=True
+
+Step 6
+  A: {'label': 'A', 'intensity': 0.5122, 'memory': 0.4474}
+  B: {'label': 'B', 'intensity': 0.9255, 'memory': 0.6536}
+  C: {'label': 'C', 'intensity': 0.5051, 'memory': 0.2023}
+  relation_AB: {'source': 'A', 'target': 'B', 'intensity': 0.8093, 'asymmetry': -0.0674, 'mode': 'analogy', 'tetra_state': 'affirmed'}
+  implied_relation_BA: {'source': 'B', 'target': 'A', 'intensity': 0.4552, 'asymmetry': 0.2236, 'mode': 'analogy', 'tetra_state': 'affirmed'}
+  mode_of_C: noise
+  candidate_tetra_state: affirmed
+  updated_tetra_state: affirmed
+  distance=0.75  coupling=1.3333
+  conic_regime=mixed
+  role_permuted=False  distance_shifted=False  mode_shifted=False
+
+Step 7
+  A: {'label': 'A', 'intensity': 0.4748, 'memory': 0.3669}
+  B: {'label': 'B', 'intensity': 0.8535, 'memory': 0.7159}
+  C: {'label': 'C', 'intensity': 0.3418, 'memory': 0.1659}
+  relation_AB: {'source': 'A', 'target': 'B', 'intensity': 0.4112, 'asymmetry': -0.3507, 'mode': 'analogy', 'tetra_state': 'both'}
+  implied_relation_BA: {'source': 'B', 'target': 'A', 'intensity': 0.2788, 'asymmetry': 0.3228, 'mode': 'analogy', 'tetra_state': 'both'}
+  mode_of_C: noise
+  candidate_tetra_state: neither
+  updated_tetra_state: both
+  distance=1.5  coupling=0.6667
+  conic_regime=mixed
+  role_permuted=False  distance_shifted=True  mode_shifted=False
+
+Step 8
+  A: {'label': 'A', 'intensity': 0.4519, 'memory': 0.3009}
+  B: {'label': 'B', 'intensity': 0.8333, 'memory': 0.7671}
+  C: {'label': 'C', 'intensity': 0.2588, 'memory': 0.136}
+  relation_AB: {'source': 'A', 'target': 'B', 'intensity': 0.4718, 'asymmetry': -0.4692, 'mode': 'analogy', 'tetra_state': 'both'}
+  implied_relation_BA: {'source': 'B', 'target': 'A', 'intensity': 0.3299, 'asymmetry': 0.3642, 'mode': 'analogy', 'tetra_state': 'both'}
+  mode_of_C: noise
+  candidate_tetra_state: neither
+  updated_tetra_state: both
+  distance=1.5  coupling=0.6667
+  conic_regime=mixed
+  role_permuted=False  distance_shifted=False  mode_shifted=False
+
+Step 9
+  A: {'label': 'A', 'intensity': 0.4311, 'memory': 0.2467}
+  B: {'label': 'B', 'intensity': 0.8008, 'memory': 0.809}
+  C: {'label': 'C', 'intensity': 0.1872, 'memory': 0.1116}
+  relation_AB: {'source': 'A', 'target': 'B', 'intensity': 0.435, 'asymmetry': -0.3963, 'mode': 'analogy', 'tetra_state': 'both'}
+  implied_relation_BA: {'source': 'B', 'target': 'A', 'intensity': 0.2987, 'asymmetry': 0.3387, 'mode': 'analogy', 'tetra_state': 'both'}
+  mode_of_C: noise
+  candidate_tetra_state: neither
+  updated_tetra_state: both
+  distance=1.5  coupling=0.6667
+  conic_regime=mixed
+  role_permuted=False  distance_shifted=False  mode_shifted=False
+
+Step 10
+  A: {'label': 'A', 'intensity': 0.4207, 'memory': 0.2023}
+  B: {'label': 'B', 'intensity': 0.8149, 'memory': 0.8434}
+  C: {'label': 'C', 'intensity': 0.3271, 'memory': 0.0915}
+  relation_AB: {'source': 'A', 'target': 'B', 'intensity': 0.5086, 'asymmetry': -0.4909, 'mode': 'analogy', 'tetra_state': 'both'}
+  implied_relation_BA: {'source': 'B', 'target': 'A', 'intensity': 0.3534, 'asymmetry': 0.3718, 'mode': 'analogy', 'tetra_state': 'both'}
+  mode_of_C: noise
+  candidate_tetra_state: neither
+  updated_tetra_state: both
+  distance=1.5  coupling=0.6667
+  conic_regime=mixed
+  role_permuted=False  distance_shifted=False  mode_shifted=False
+
+Step 11
+  A: {'label': 'B', 'intensity': 0.8528, 'memory': 0.8716}
+  B: {'label': 'A', 'intensity': 0.4101, 'memory': 0.1659}
+  C: {'label': 'C', 'intensity': 0.2433, 'memory': 0.075}
+  relation_AB: {'source': 'A', 'target': 'B', 'intensity': 0.5647, 'asymmetry': -0.3091, 'mode': 'analogy', 'tetra_state': 'both'}
+  implied_relation_BA: {'source': 'B', 'target': 'A', 'intensity': 0.357, 'asymmetry': 0.3082, 'mode': 'analogy', 'tetra_state': 'both'}
+  mode_of_C: noise
+  candidate_tetra_state: neither
+  updated_tetra_state: both
+  distance=1.5  coupling=0.6667
+  conic_regime=mixed
+  role_permuted=True  distance_shifted=False  mode_shifted=False
+
+Step 12
+  A: {'label': 'B', 'intensity': 0.7538, 'memory': 0.8947}
+  B: {'label': 'A', 'intensity': 0.7107, 'memory': 0.316}
+  C: {'label': 'C', 'intensity': 0.153, 'memory': 0.0615}
+  relation_AB: {'source': 'B', 'target': 'A', 'intensity': 0.8473, 'asymmetry': 0.4695, 'mode': 'resemblance', 'tetra_state': 'both'}
+  implied_relation_BA: {'source': 'A', 'target': 'B', 'intensity': 0.5364, 'asymmetry': 0.0357, 'mode': 'analogy', 'tetra_state': 'both'}
+  mode_of_C: noise
+  candidate_tetra_state: affirmed
+  updated_tetra_state: both
+  distance=1.5  coupling=0.6667
+  conic_regime=parabola
+  role_permuted=False  distance_shifted=False  mode_shifted=True
+
+Step 13
+  A: {'label': 'B', 'intensity': 0.6654, 'memory': 0.9136}
+  B: {'label': 'A', 'intensity': 0.7826, 'memory': 0.4391}
+  C: {'label': 'C', 'intensity': 0.1687, 'memory': 0.0504}
+  relation_AB: {'source': 'B', 'target': 'A', 'intensity': 0.5701, 'asymmetry': 0.0144, 'mode': 'resemblance', 'tetra_state': 'affirmed'}
+  implied_relation_BA: {'source': 'A', 'target': 'B', 'intensity': 0.3706, 'asymmetry': -0.0079, 'mode': 'resemblance', 'tetra_state': 'affirmed'}
+  mode_of_C: noise
+  candidate_tetra_state: neither
+  updated_tetra_state: affirmed
+  distance=1.5  coupling=0.6667
+  conic_regime=parabola
+  role_permuted=False  distance_shifted=False  mode_shifted=False
+
+Step 14
+  A: {'label': 'B', 'intensity': 0.6033, 'memory': 0.9292}
+  B: {'label': 'A', 'intensity': 0.8772, 'memory': 0.5401}
+  C: {'label': 'C', 'intensity': 0.1683, 'memory': 0.0414}
+  relation_AB: {'source': 'B', 'target': 'A', 'intensity': 0.6589, 'asymmetry': -0.4303, 'mode': 'resemblance', 'tetra_state': 'affirmed'}
+  implied_relation_BA: {'source': 'A', 'target': 'B', 'intensity': 0.4283, 'asymmetry': 0.2367, 'mode': 'resemblance', 'tetra_state': 'affirmed'}
+  mode_of_C: noise
+  candidate_tetra_state: affirmed
+  updated_tetra_state: affirmed
+  distance=1.5  coupling=0.6667
+  conic_regime=parabola
+  role_permuted=False  distance_shifted=False  mode_shifted=False
+
+Step 15
+  A: {'label': 'B', 'intensity': 0.5573, 'memory': 0.7619}
+  B: {'label': 'A', 'intensity': 0.955, 'memory': 0.6229}
+  C: {'label': 'C', 'intensity': 0.1595, 'memory': 0.0339}
+  relation_AB: {'source': 'B', 'target': 'A', 'intensity': 0.6818, 'asymmetry': -0.1224, 'mode': 'resemblance', 'tetra_state': 'affirmed'}
+  implied_relation_BA: {'source': 'A', 'target': 'B', 'intensity': 0.4431, 'asymmetry': 0.0673, 'mode': 'resemblance', 'tetra_state': 'affirmed'}
+  mode_of_C: noise
+  candidate_tetra_state: affirmed
+  updated_tetra_state: affirmed
+  distance=1.875  coupling=0.5333
+  conic_regime=parabola
+  role_permuted=False  distance_shifted=True  mode_shifted=False
+
+Step 16
+  A: {'label': 'A', 'intensity': 0.9011, 'memory': 0.6908}
+  B: {'label': 'B', 'intensity': 0.5101, 'memory': 0.6248}
+  C: {'label': 'C', 'intensity': 0.194, 'memory': 0.0278}
+  relation_AB: {'source': 'B', 'target': 'A', 'intensity': 0.4653, 'asymmetry': -0.3766, 'mode': 'resemblance', 'tetra_state': 'neither'}
+  implied_relation_BA: {'source': 'A', 'target': 'B', 'intensity': 0.3025, 'asymmetry': 0.2071, 'mode': 'resemblance', 'tetra_state': 'neither'}
+  mode_of_C: noise
+  candidate_tetra_state: neither
+  updated_tetra_state: neither
+  distance=1.875  coupling=0.5333
+  conic_regime=parabola
+  role_permuted=True  distance_shifted=False  mode_shifted=False
+
+Step 17
+  A: {'label': 'A', 'intensity': 0.7844, 'memory': 0.7464}
+  B: {'label': 'B', 'intensity': 0.7042, 'memory': 0.6923}
+  C: {'label': 'C', 'intensity': 0.1014, 'memory': 0.0228}
+  relation_AB: {'source': 'A', 'target': 'B', 'intensity': 0.6943, 'asymmetry': 0.4739, 'mode': 'resemblance', 'tetra_state': 'affirmed'}
+  implied_relation_BA: {'source': 'B', 'target': 'A', 'intensity': 0.4513, 'asymmetry': -0.2606, 'mode': 'resemblance', 'tetra_state': 'affirmed'}
+  mode_of_C: noise
+  candidate_tetra_state: affirmed
+  updated_tetra_state: affirmed
+  distance=1.875  coupling=0.5333
+  conic_regime=parabola
+  role_permuted=False  distance_shifted=False  mode_shifted=False
+
+Step 18
+  A: {'label': 'A', 'intensity': 0.6878, 'memory': 0.7921}
+  B: {'label': 'B', 'intensity': 0.7702, 'memory': 0.7477}
+  C: {'label': 'C', 'intensity': 0.1551, 'memory': 0.0187}
+  relation_AB: {'source': 'A', 'target': 'B', 'intensity': 0.5545, 'asymmetry': 0.1667, 'mode': 'resemblance', 'tetra_state': 'neither'}
+  implied_relation_BA: {'source': 'B', 'target': 'A', 'intensity': 0.3605, 'asymmetry': -0.0917, 'mode': 'resemblance', 'tetra_state': 'neither'}
+  mode_of_C: noise
+  candidate_tetra_state: neither
+  updated_tetra_state: neither
+  distance=1.875  coupling=0.5333
+  conic_regime=parabola
+  role_permuted=False  distance_shifted=False  mode_shifted=False
+
+Final summary:
+{
+  "final_A": {
+    "label": "B",
+    "intensity": 0.1685,
+    "memory": 0.204
+  },
+  "final_B": {
+    "label": "A",
+    "intensity": 0.779,
+    "memory": 0.9104
+  },
+  "final_C": {
+    "label": "C",
+    "intensity": 0.3119,
+    "memory": 0.0
+  },
+  "final_relation_AB": {
+    "source": "C",
+    "target": "A",
+    "intensity": 0.5177,
+    "asymmetry": -0.5459,
+    "mode": "contrariety",
+    "tetra_state": "neither"
+  },
+  "final_distance": 2.6367,
+  "final_mode_of_C": "noise",
+  "final_conic_regime": "hyperbola",
+  "steps": 50
+}

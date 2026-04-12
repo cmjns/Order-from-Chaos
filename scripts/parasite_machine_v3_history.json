@@ -1,0 +1,922 @@
+[
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.8287,
+      "memory": 0.2
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5075,
+      "memory": 0.0
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6307,
+      "memory": 0.2
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.6725,
+      "asymmetry": 0.5
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.8687,
+      "memory": 0.36
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5684,
+      "memory": 0.0
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6353,
+      "memory": 0.36
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.6427,
+      "asymmetry": 0.3212
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.8557,
+      "memory": 0.488
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.6118,
+      "memory": 0.2
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.5928,
+      "memory": 0.288
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.6381,
+      "asymmetry": 0.3003
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.7215,
+      "memory": 0.5904
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.6173,
+      "memory": 0.36
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.5961,
+      "memory": 0.2304
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.6199,
+      "asymmetry": 0.2439
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.7274,
+      "memory": 0.6723
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.612,
+      "memory": 0.488
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6831,
+      "memory": 0.3843
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5856,
+      "asymmetry": 0.1042
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.6881,
+      "memory": 0.7379
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5366,
+      "memory": 0.3904
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.7195,
+      "memory": 0.5075
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5971,
+      "asymmetry": 0.1154
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.6567,
+      "memory": 0.7903
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5707,
+      "memory": 0.3123
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6369,
+      "memory": 0.606
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.6097,
+      "asymmetry": 0.1515
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.5888,
+      "memory": 0.6322
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5115,
+      "memory": 0.2499
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6642,
+      "memory": 0.6848
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5852,
+      "asymmetry": 0.086
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.5641,
+      "memory": 0.5058
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5255,
+      "memory": 0.1999
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6674,
+      "memory": 0.7478
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5857,
+      "asymmetry": 0.0773
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.5218,
+      "memory": 0.4046
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5849,
+      "memory": 0.1599
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6469,
+      "memory": 0.7983
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5764,
+      "asymmetry": 0.0386
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.5298,
+      "memory": 0.3237
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5528,
+      "memory": 0.1279
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.7398,
+      "memory": 0.8386
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5489,
+      "asymmetry": -0.0631
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4764,
+      "memory": 0.259
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5589,
+      "memory": 0.1023
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.7244,
+      "memory": 0.8709
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5682,
+      "asymmetry": -0.023
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4856,
+      "memory": 0.2072
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5322,
+      "memory": 0.0819
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6576,
+      "memory": 0.8967
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5518,
+      "asymmetry": -0.0824
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4898,
+      "memory": 0.1657
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5468,
+      "memory": 0.0655
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6079,
+      "memory": 0.9174
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5541,
+      "asymmetry": -0.0467
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4114,
+      "memory": 0.1326
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.4862,
+      "memory": 0.0524
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.5742,
+      "memory": 0.7339
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5465,
+      "asymmetry": -0.057
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4318,
+      "memory": 0.1061
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5122,
+      "memory": 0.0419
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.5695,
+      "memory": 0.5871
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5387,
+      "asymmetry": -0.0748
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.3806,
+      "memory": 0.0849
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5275,
+      "memory": 0.0335
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.4404,
+      "memory": 0.4697
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5369,
+      "asymmetry": -0.0804
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.3329,
+      "memory": 0.0679
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.505,
+      "memory": 0.0268
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.4479,
+      "memory": 0.3758
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5074,
+      "asymmetry": -0.1469
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.3897,
+      "memory": 0.0543
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.4995,
+      "memory": 0.0215
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.3968,
+      "memory": 0.3006
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5019,
+      "asymmetry": -0.1721
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4703,
+      "memory": 0.0434
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5112,
+      "memory": 0.0172
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.4862,
+      "memory": 0.2405
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5123,
+      "asymmetry": -0.1098
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4391,
+      "memory": 0.0348
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5519,
+      "memory": 0.0137
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.4539,
+      "memory": 0.1924
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5384,
+      "asymmetry": -0.0408
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4329,
+      "memory": 0.0278
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5529,
+      "memory": 0.011
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.3843,
+      "memory": 0.1539
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5172,
+      "asymmetry": -0.1128
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4647,
+      "memory": 0.0222
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.515,
+      "memory": 0.0088
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.4619,
+      "memory": 0.1231
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5085,
+      "asymmetry": -0.12
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4962,
+      "memory": 0.0178
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5091,
+      "memory": 0.007
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.5146,
+      "memory": 0.0985
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5336,
+      "asymmetry": -0.0503
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.5623,
+      "memory": 0.0142
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.567,
+      "memory": 0.0056
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.5127,
+      "memory": 0.0788
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5482,
+      "asymmetry": -0.0129
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.6283,
+      "memory": 0.2114
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5511,
+      "memory": 0.0045
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.5867,
+      "memory": 0.063
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5501,
+      "asymmetry": -0.0047
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.5543,
+      "memory": 0.1691
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.542,
+      "memory": 0.0036
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6099,
+      "memory": 0.2504
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.578,
+      "asymmetry": 0.0772
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.5248,
+      "memory": 0.1353
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5921,
+      "memory": 0.0029
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6223,
+      "memory": 0.4003
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5641,
+      "asymmetry": 0.0123
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.5135,
+      "memory": 0.1082
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5889,
+      "memory": 0.0023
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.591,
+      "memory": 0.3203
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5454,
+      "asymmetry": -0.0673
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4491,
+      "memory": 0.0866
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5671,
+      "memory": 0.0018
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.5294,
+      "memory": 0.2562
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5403,
+      "asymmetry": -0.0754
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4172,
+      "memory": 0.0693
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5044,
+      "memory": 0.0015
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.4897,
+      "memory": 0.205
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5235,
+      "asymmetry": -0.118
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4636,
+      "memory": 0.0554
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5158,
+      "memory": 0.0012
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.3796,
+      "memory": 0.164
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5272,
+      "asymmetry": -0.0872
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4818,
+      "memory": 0.0443
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5043,
+      "memory": 0.0009
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.3912,
+      "memory": 0.1312
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5249,
+      "asymmetry": -0.0521
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.5155,
+      "memory": 0.0355
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5286,
+      "memory": 0.0008
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.3975,
+      "memory": 0.1049
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5335,
+      "asymmetry": -0.0225
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.4807,
+      "memory": 0.0284
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5711,
+      "memory": 0.0006
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.5539,
+      "memory": 0.084
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5365,
+      "asymmetry": -0.013
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.5348,
+      "memory": 0.0227
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5764,
+      "memory": 0.0005
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6213,
+      "memory": 0.2672
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5328,
+      "asymmetry": -0.0903
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.512,
+      "memory": 0.0182
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.6116,
+      "memory": 0.2004
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6044,
+      "memory": 0.4137
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5517,
+      "asymmetry": -0.0416
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.5189,
+      "memory": 0.0145
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5612,
+      "memory": 0.1603
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6447,
+      "memory": 0.531
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5356,
+      "asymmetry": -0.0996
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.51,
+      "memory": 0.0116
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5612,
+      "memory": 0.1282
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.6281,
+      "memory": 0.6248
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.5539,
+      "asymmetry": -0.0423
+    }
+  },
+  {
+    "A": {
+      "label": "A",
+      "intensity": 0.5642,
+      "memory": 0.0093
+    },
+    "B": {
+      "label": "B",
+      "intensity": 0.5837,
+      "memory": 0.1026
+    },
+    "C": {
+      "label": "C",
+      "intensity": 0.5055,
+      "memory": 0.4998
+    },
+    "relation": {
+      "source": "A",
+      "target": "B",
+      "intensity": 0.55,
+      "asymmetry": -0.0511
+    }
+  }
+]

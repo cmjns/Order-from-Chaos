@@ -1,0 +1,467 @@
+
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\title{The Parasite Machine (Updated):\\
+Asymmetry, Self-Referential Logic, and Conic Regimes\\
+\large With Appended Refinement on Internal Dynamical Fields}
+\author{}
+\date{}
+
+\newtheorem{definition}{Definition}
+
+\begin{document}
+\maketitle
+
+\section*{Abstract}
+This document presents an expanded and refined formalization of the Parasite machine.
+We integrate:
+\begin{itemize}
+\item asymmetric relations as locally generated intensities,
+\item implied counter-relations via representational regimes,
+\item the tetralemma as a self-referential dynamical system,
+\item and conic geometry as curvature of implication.
+\end{itemize}
+
+\section{1. Ontological Commitment}
+
+We begin with a refusal.
+
+We do not assume:
+\begin{itemize}
+\item substances,
+\item conserved quantities,
+\item global symmetry,
+\item global asymmetry.
+\end{itemize}
+
+Instead we assume only:
+\begin{itemize}
+\item positions,
+\item relations,
+\item transformations,
+\item observables.
+\end{itemize}
+
+\paragraph{Narrative}
+The system does not describe a world. It generates one.
+Structure is not given---it emerges from dynamics.
+
+\section{2. The Pre-Relational Field}
+
+Before any directed relation, we posit:
+\[
+\mathcal{R}_0(A,B)
+\]
+
+\paragraph{Narrative}
+This is not a relation in the usual sense.
+It is an underdetermined field of possible relation.
+
+It contains no direction, no symmetry, and no asymmetry.
+
+\section{3. Generation of Asymmetry}
+
+\begin{definition}
+\[
+R(A,B) = \Psi_C(\mathcal{R}_0(A,B))
+\]
+\end{definition}
+
+\paragraph{Narrative}
+Asymmetry is not primitive.
+
+It is generated locally by the action of a third term $C$.
+The parasite produces direction by acting on an undetermined field.
+
+Thus:
+\[
+A \xrightarrow[\iota,\delta]{} B
+\]
+is a stabilization, not a foundation.
+
+\section{4. Implied Counter-Relation}
+
+\begin{definition}
+\[
+\Phi_m : R(A,B) \mapsto R(B,A)
+\]
+\end{definition}
+
+\paragraph{Narrative}
+Reciprocity is not given.
+It is implied, and the form of implication depends on a mode $m$.
+
+\section{5. Representation as Curvature}
+
+\[
+\mathcal{M} = \{Id, Res, An, Con\}
+\]
+
+\[
+\kappa(m) \in \{ellipse, parabola, hyperbola, mixed\}
+\]
+
+\paragraph{Narrative}
+Representation is not correspondence.
+It is curvature.
+
+Each mode determines how a relation folds back onto itself.
+
+\begin{itemize}
+\item Identity closes (ellipse)
+\item Resemblance drifts (parabola)
+\item Analogy transforms (mixed)
+\item Contrariety diverges (hyperbola)
+\end{itemize}
+
+\section{6. The Parasite}
+
+\begin{definition}
+\[
+C \triangleright_m R(A,B)
+\]
+\end{definition}
+
+\paragraph{Narrative}
+The parasite acts on:
+\begin{itemize}
+\item intensity,
+\item asymmetry,
+\item implied relation,
+\item representational regime,
+\item logical state.
+\end{itemize}
+
+It is not external.
+It is the condition under which relations take form.
+
+\section{7. The Tetralemma (Dynamical)}
+
+\[
+\mathcal{T} = \{affirmed,\ negated,\ both,\ neither\}
+\]
+
+\paragraph{Narrative}
+The tetralemma is not a classification of truth.
+
+It is a state space.
+
+\subsection*{Crucial Shift}
+We do not select a corner.
+
+Instead:
+\[
+\tau_{t+1} = \tau(\tau_t, R, \Phi, C)
+\]
+
+\paragraph{Narrative}
+The system traverses the tetralemma.
+
+Symmetry and asymmetry are not global properties.
+They are regimes that appear and disappear through this traversal.
+
+\section{8. Conic Regimes and Logic}
+
+\paragraph{Narrative}
+The tetralemma and conics are not separate.
+
+They describe the same structure from different perspectives.
+
+\begin{itemize}
+\item Ellipse: closure, mutual implication, stability of ``both''
+\item Parabola: threshold, drift, one-sided implication
+\item Hyperbola: divergence, separation, instability
+\item Mixed: transformation, mediation, ambiguity
+\end{itemize}
+
+Thus:
+\[
+\text{logic} = \text{geometry} = \text{dynamics}
+\]
+
+\section{9. Full Machine}
+
+\begin{definition}
+\[
+P = (A,B,C,R,\Phi,m,\tau,d)
+\]
+\end{definition}
+
+\[
+P' = \Psi(P)
+\]
+
+\paragraph{Narrative}
+Everything evolves.
+
+At each step:
+\begin{itemize}
+\item a relation is generated,
+\item a counter-relation is implied,
+\item a tetralemmatic state is proposed,
+\item that state is transformed,
+\item positions are updated,
+\item roles may permute,
+\item regimes may shift.
+\end{itemize}
+
+\section{10. Computational Instantiation}
+
+The Python implementation realizes this machine explicitly.
+
+\paragraph{Narrative}
+The code demonstrates:
+\begin{itemize}
+\item asymmetry as dynamic,
+\item reciprocity as derived,
+\item logic as evolving,
+\item representation as regime,
+\item and the parasite as operator.
+\end{itemize}
+
+The distinction between:
+\begin{itemize}
+\item candidate tetralemma state,
+\item updated tetralemma state
+\end{itemize}
+is critical.
+
+It shows that logic is not read off the system---it is transformed by it.
+
+\section{11. Conceptual Synthesis}
+
+\begin{itemize}
+\item There is no global symmetry.
+\item There is no global asymmetry.
+\item The system does not resolve this.
+\item It continuously rearticulates it.
+\end{itemize}
+
+\paragraph{Interim Statement}
+A world emerges from:
+\begin{itemize}
+\item a pre-relational field,
+\item local generation of asymmetry,
+\item mode-dependent implication,
+\item self-referential traversal of logical regimes,
+\item and parasitic mediation.
+\end{itemize}
+
+\appendix
+
+\section{Appended Refinement: Vertices as Internal Dynamical Fields}
+
+\subsection*{Why this refinement is necessary}
+
+The earlier formulation still permitted a residual simplification:
+it treated the terms at the vertices of a relation as if they were places that
+\emph{carried} state, while the relation itself operated \emph{between} them.
+
+That is no longer sufficient.
+
+If a relation genuinely transforms the terms that enter into it, then the
+dynamics of the relation do not stop at the edge between nodes.
+They continue \emph{inside} the terms.
+
+This means that a vertex cannot be treated as a passive container.
+It must itself be understood as a local field of ongoing dynamics.
+
+\paragraph{Narrative}
+The relation penetrates the term.
+What looks like a node is really a fold of the same dynamic field from which the relation emerged.
+
+\subsection*{From positions to local fields}
+
+Instead of writing:
+\[
+A = (\text{intensity}, \text{memory})
+\]
+we now write:
+\[
+A = \mathcal{F}_A
+\]
+where $\mathcal{F}_A$ is a local dynamical field.
+
+Likewise:
+\[
+B = \mathcal{F}_B, \qquad C = \mathcal{F}_C
+\]
+
+\paragraph{Narrative}
+A, B, and C are no longer merely positions in a simplex.
+They are internally active regions.
+
+Each contains:
+\begin{itemize}
+\item local intensities,
+\item internal fluctuations,
+\item persistence effects,
+\item and potentially further parasitic structure.
+\end{itemize}
+
+\subsection*{Field--simplex coupling}
+
+The simplex does not disappear.
+Rather, it is reinterpreted.
+
+We still have:
+\[
+P = (A,B,C)
+\]
+but now:
+\[
+P \subset \mathcal{F}
+\]
+where $\mathcal{F}$ is a broader relational field.
+
+Each local parasite configuration is a stabilization within that field.
+
+\paragraph{Narrative}
+The simplex is a local crystallization of a larger field.
+It is not cut off from that field.
+It is one of the ways the field folds into temporary form.
+
+\subsection*{Relations now continue inside the vertex}
+
+A relation does not only connect two fields externally.
+It modifies them internally.
+
+So instead of only writing:
+\[
+R(A,B)
+\]
+we must also write:
+\[
+\mathcal{F}_A' = \Psi_A(\mathcal{F}_A, R(A,B))
+\]
+\[
+\mathcal{F}_B' = \Psi_B(\mathcal{F}_B, R(A,B))
+\]
+
+\paragraph{Narrative}
+A is changed from within by relating to B.
+B is changed from within by receiving A.
+The relation is therefore not external to the terms.
+It becomes part of their internal continuation.
+
+\subsection*{Recursive parasitic structure}
+
+This yields a stronger claim.
+
+If each vertex is itself a local dynamical field, then each vertex can itself
+contain parasite-like configurations.
+
+So:
+\[
+A = \mathcal{F}_A \supset P_A
+\]
+\[
+B = \mathcal{F}_B \supset P_B
+\]
+\[
+C = \mathcal{F}_C \supset P_C
+\]
+
+\paragraph{Narrative}
+The Parasite machine is not merely one local configuration among others.
+It is a recurrent pattern of organization that can appear:
+\begin{itemize}
+\item between vertices,
+\item within vertices,
+\item and between those internal configurations again.
+\end{itemize}
+
+This means the machine both:
+\begin{itemize}
+\item underlies a multiplicity of differently configured relations,
+\item and pervades that multiplicity by continuing to operate within it.
+\end{itemize}
+
+\subsection*{Connection to multiplicity of power configurations}
+
+This matters because no actual system is exhausted by one local simplex.
+
+A system may exhibit many locally configured dynamics:
+\begin{itemize}
+\item power relations,
+\item financial relations,
+\item informational relations,
+\item command relations,
+\item resemblance or analogy structures,
+\item and other metastable patterns not reducible to a single formal type.
+\end{itemize}
+
+\paragraph{Narrative}
+What has been built should therefore be read neither as one isolated triangle
+nor as one single ontology of relation.
+It is better understood as a generative dynamic capable of producing many local
+configurations while also continuing to pass through them.
+
+\subsection*{Formal refinement of the machine}
+
+The earlier machine was:
+\[
+P = (A,B,C,R,\Phi,m,\tau,d)
+\]
+
+The refined machine becomes:
+\[
+P^\star = (\mathcal{F}_A,\mathcal{F}_B,\mathcal{F}_C,R,\Phi,m,\tau,d)
+\]
+
+where each $\mathcal{F}_X$ is a local dynamical field rather than a passive position.
+
+And the update rule is no longer only:
+\[
+P' = \Psi(P)
+\]
+but also:
+\[
+\mathcal{F}_A' = \Psi_A(\mathcal{F}_A, R, C)
+\]
+\[
+\mathcal{F}_B' = \Psi_B(\mathcal{F}_B, R, C)
+\]
+\[
+\mathcal{F}_C' = \Psi_C(\mathcal{F}_C, R)
+\]
+
+\paragraph{Narrative}
+The machine now acts at two scales at once:
+\begin{itemize}
+\item it produces local relational form,
+\item and it reshapes the internal fields that sustain that form.
+\end{itemize}
+
+\subsection*{Computational refinement}
+
+In the updated artifact, this refinement is implemented by replacing passive
+positions with internal fields that have their own dynamics:
+\begin{itemize}
+\item internal intensity,
+\item memory,
+\item noise,
+\item and update rules driven by external relational influence.
+\end{itemize}
+
+\paragraph{Narrative}
+This is the crucial move:
+the nodes no longer merely participate in the machine.
+They are themselves made of the same sort of dynamics.
+
+\subsection*{Refined concluding statement}
+
+The Parasite machine should now be understood as a dynamic that both:
+\begin{itemize}
+\item underlies a multiplicity of variously configured dynamical relations,
+\item and pervades that multiplicity by continuing to operate within the terms it generates.
+\end{itemize}
+
+In this stronger formulation, what appears as a vertex is never merely a point.
+It is a locally stabilized field whose internal life remains open to further parasitic mediation.
+
+\end{document}

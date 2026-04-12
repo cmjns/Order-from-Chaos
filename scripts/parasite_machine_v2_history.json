@@ -1,0 +1,2033 @@
+{
+  "summary": {
+    "final_A": {
+      "label": "C",
+      "intensity": 0.3099,
+      "memory": 0.0
+    },
+    "final_B": {
+      "label": "B",
+      "intensity": 0.7459,
+      "memory": 0.4554
+    },
+    "final_C": {
+      "label": "A",
+      "intensity": 0.7147,
+      "memory": 0.9969
+    },
+    "final_relation_AB": {
+      "source": "C",
+      "target": "B",
+      "intensity": 0.5303,
+      "asymmetry": -0.4294,
+      "mode": "contrariety",
+      "tetra_state": "neither"
+    },
+    "final_distance": 2.7466,
+    "final_mode_of_C": "metastability",
+    "final_conic_regime": "hyperbola",
+    "steps": 50
+  },
+  "history": [
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.6955,
+        "memory": 0.4096
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.336,
+        "memory": 0.0656
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.3731,
+        "memory": 0.1312
+      },
+      "relation_AB": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.336,
+        "asymmetry": 0.5063,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.3492,
+        "asymmetry": -0.4557,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.0,
+      "coupling": 1.0,
+      "conic_regime": "ellipse",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.6597,
+        "memory": 0.5159
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.5314,
+        "memory": 0.0538
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.2209,
+        "memory": 0.1076
+      },
+      "relation_AB": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.5923,
+        "asymmetry": 0.3838,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.5927,
+        "asymmetry": -0.3454,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.0,
+      "coupling": 1.0,
+      "conic_regime": "ellipse",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.6156,
+        "memory": 0.603
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.5919,
+        "memory": 0.0441
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.3617,
+        "memory": 0.0882
+      },
+      "relation_AB": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.44,
+        "asymmetry": 0.1272,
+        "mode": "resemblance",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.448,
+        "asymmetry": -0.1144,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.0,
+      "coupling": 1.0,
+      "conic_regime": "parabola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": true
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.5406,
+        "memory": 0.4945
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.5256,
+        "memory": 0.0362
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.4167,
+        "memory": 0.0723
+      },
+      "relation_AB": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.2225,
+        "asymmetry": 0.1468,
+        "mode": "resemblance",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.1446,
+        "asymmetry": -0.0807,
+        "mode": "resemblance",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.0,
+      "coupling": 1.0,
+      "conic_regime": "parabola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.3163,
+        "memory": 0.0593
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.472,
+        "memory": 0.0297
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.4827,
+        "memory": 0.4055
+      },
+      "relation_AB": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.2082,
+        "asymmetry": -0.0545,
+        "mode": "resemblance",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.1353,
+        "asymmetry": 0.03,
+        "mode": "resemblance",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.0,
+      "coupling": 1.0,
+      "conic_regime": "parabola",
+      "role_permuted": true,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.3233,
+        "memory": 0.0486
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.5312,
+        "memory": 0.0243
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.4192,
+        "memory": 0.3325
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.4015,
+        "asymmetry": -0.2126,
+        "mode": "resemblance",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.261,
+        "asymmetry": 0.1169,
+        "mode": "resemblance",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.0,
+      "coupling": 1.0,
+      "conic_regime": "parabola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.3153,
+        "memory": 0.0399
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.4563,
+        "memory": 0.0199
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.222,
+        "memory": 0.2726
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.169,
+        "asymmetry": -0.3332,
+        "mode": "analogy",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.1099,
+        "asymmetry": 0.1833,
+        "mode": "resemblance",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.0,
+      "coupling": 1.0,
+      "conic_regime": "mixed",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": true
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.3212,
+        "memory": 0.0327
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.5515,
+        "memory": 0.0164
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.3445,
+        "memory": 0.2236
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.4641,
+        "asymmetry": -0.1291,
+        "mode": "analogy",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.2746,
+        "asymmetry": 0.2452,
+        "mode": "analogy",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.0,
+      "coupling": 1.0,
+      "conic_regime": "mixed",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.3229,
+        "memory": 0.0268
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.6247,
+        "memory": 0.1934
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.2654,
+        "memory": 0.1833
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.4773,
+        "asymmetry": 0.0056,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.2633,
+        "asymmetry": 0.198,
+        "mode": "analogy",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.0,
+      "coupling": 1.0,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": true
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.3849,
+        "memory": 0.022
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.8032,
+        "memory": 0.3386
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.2936,
+        "memory": 0.1503
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.7319,
+        "asymmetry": -0.346,
+        "mode": "contrariety",
+        "tetra_state": "both"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.6855,
+        "asymmetry": -0.3114,
+        "mode": "contrariety",
+        "tetra_state": "both"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.25,
+      "coupling": 0.8,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": true,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.4472,
+        "memory": 0.018
+      },
+      "B": {
+        "label": "B",
+        "intensity": 1.0189,
+        "memory": 0.4576
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.3889,
+        "memory": 0.1233
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.9134,
+        "asymmetry": -0.3152,
+        "mode": "contrariety",
+        "tetra_state": "both"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.8307,
+        "asymmetry": -0.2837,
+        "mode": "contrariety",
+        "tetra_state": "both"
+      },
+      "mode_of_C": "noise",
+      "distance": 0.9375,
+      "coupling": 1.0667,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": true,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.4618,
+        "memory": 0.0148
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.9746,
+        "memory": 0.5553
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.4587,
+        "memory": 0.1011
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.5227,
+        "asymmetry": -0.1943,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.5181,
+        "asymmetry": -0.1749,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 0.7031,
+      "coupling": 1.4222,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": true,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.4642,
+        "memory": 0.0121
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.8917,
+        "memory": 0.6353
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.4539,
+        "memory": 0.0829
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.4189,
+        "asymmetry": -0.9964,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.4351,
+        "asymmetry": -0.8967,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 0.7031,
+      "coupling": 1.4222,
+      "conic_regime": "ellipse",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": true
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.459,
+        "memory": 0.0099
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.808,
+        "memory": 0.701
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.2812,
+        "memory": 0.068
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.3676,
+        "asymmetry": -0.376,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.3793,
+        "asymmetry": 0.3384,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 0.7031,
+      "coupling": 1.4222,
+      "conic_regime": "ellipse",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.4613,
+        "memory": 0.0082
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.7778,
+        "memory": 0.7548
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.2871,
+        "memory": 0.0557
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.4244,
+        "asymmetry": -0.1956,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.4332,
+        "asymmetry": 0.1761,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 0.7031,
+      "coupling": 1.4222,
+      "conic_regime": "ellipse",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.4987,
+        "memory": 0.0067
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.9168,
+        "memory": 0.7989
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.1546,
+        "memory": 0.0457
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.7446,
+        "asymmetry": -0.0969,
+        "mode": "identity",
+        "tetra_state": "both"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.7374,
+        "asymmetry": 0.0872,
+        "mode": "identity",
+        "tetra_state": "both"
+      },
+      "mode_of_C": "noise",
+      "distance": 0.7031,
+      "coupling": 1.4222,
+      "conic_regime": "ellipse",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.4892,
+        "memory": 0.0375
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.9473,
+        "memory": 0.8351
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.5122,
+        "memory": 0.0055
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.6111,
+        "asymmetry": 0.0592,
+        "mode": "identity",
+        "tetra_state": "both"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.6106,
+        "asymmetry": -0.0533,
+        "mode": "identity",
+        "tetra_state": "both"
+      },
+      "mode_of_C": "noise",
+      "distance": 0.7031,
+      "coupling": 1.4222,
+      "conic_regime": "ellipse",
+      "role_permuted": true,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "A",
+        "intensity": 0.4697,
+        "memory": 0.0307
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.8093,
+        "memory": 0.8648
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.5245,
+        "memory": 0.0045
+      },
+      "relation_AB": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.2924,
+        "asymmetry": -0.4243,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.3078,
+        "asymmetry": 0.3818,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.4062,
+      "coupling": 0.7111,
+      "conic_regime": "ellipse",
+      "role_permuted": false,
+      "distance_shifted": true,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.3184,
+        "memory": 0.0037
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.832,
+        "memory": 0.8891
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.4813,
+        "memory": 0.0252
+      },
+      "relation_AB": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.5309,
+        "asymmetry": -0.2564,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.5344,
+        "asymmetry": 0.2307,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.7578,
+      "coupling": 0.5689,
+      "conic_regime": "ellipse",
+      "role_permuted": true,
+      "distance_shifted": true,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.3702,
+        "memory": 0.003
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.8654,
+        "memory": 0.9091
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.4815,
+        "memory": 0.0207
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.566,
+        "asymmetry": -0.417,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.5677,
+        "asymmetry": 0.3753,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.7578,
+      "coupling": 0.5689,
+      "conic_regime": "ellipse",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.8827,
+        "memory": 0.9255
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.3527,
+        "memory": 0.0169
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.4083,
+        "memory": 0.0025
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.5539,
+        "asymmetry": -0.5042,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.5562,
+        "asymmetry": 0.4538,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.7578,
+      "coupling": 0.5689,
+      "conic_regime": "ellipse",
+      "role_permuted": true,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.8156,
+        "memory": 0.9389
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.6042,
+        "memory": 0.1939
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.2855,
+        "memory": 0.002
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.7148,
+        "asymmetry": 0.4235,
+        "mode": "identity",
+        "tetra_state": "both"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.709,
+        "asymmetry": -0.3812,
+        "mode": "identity",
+        "tetra_state": "both"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.7578,
+      "coupling": 0.5689,
+      "conic_regime": "ellipse",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.7406,
+        "memory": 0.9499
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.6723,
+        "memory": 0.339
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1642,
+        "memory": 0.0017
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.4987,
+        "asymmetry": 0.2088,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.5038,
+        "asymmetry": -0.1879,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.7578,
+      "coupling": 0.5689,
+      "conic_regime": "ellipse",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.6951,
+        "memory": 0.9589
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.7718,
+        "memory": 0.458
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1202,
+        "memory": 0.0014
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.6023,
+        "asymmetry": -0.0573,
+        "mode": "identity",
+        "tetra_state": "both"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.6021,
+        "asymmetry": 0.0516,
+        "mode": "identity",
+        "tetra_state": "both"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.7578,
+      "coupling": 0.5689,
+      "conic_regime": "ellipse",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.6569,
+        "memory": 0.9663
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8248,
+        "memory": 0.5555
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.2817,
+        "memory": 0.0011
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.5691,
+        "asymmetry": -0.0939,
+        "mode": "resemblance",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.5707,
+        "asymmetry": 0.0845,
+        "mode": "identity",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.7578,
+      "coupling": 0.5689,
+      "conic_regime": "parabola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": true
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.5934,
+        "memory": 0.7924
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8774,
+        "memory": 0.6355
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1991,
+        "memory": 0.0009
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.6002,
+        "asymmetry": -0.3049,
+        "mode": "analogy",
+        "tetra_state": "affirmed"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.3901,
+        "asymmetry": 0.1677,
+        "mode": "resemblance",
+        "tetra_state": "affirmed"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.7578,
+      "coupling": 0.5689,
+      "conic_regime": "mixed",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": true
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.5429,
+        "memory": 0.6497
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8983,
+        "memory": 0.7011
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.2225,
+        "memory": 0.0008
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.5681,
+        "asymmetry": -0.3621,
+        "mode": "analogy",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.3668,
+        "asymmetry": 0.3268,
+        "mode": "analogy",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.7578,
+      "coupling": 0.5689,
+      "conic_regime": "mixed",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.5059,
+        "memory": 0.5328
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.9133,
+        "memory": 0.7549
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.2208,
+        "memory": 0.0006
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.5691,
+        "asymmetry": -0.4106,
+        "mode": "analogy",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.3746,
+        "asymmetry": 0.3437,
+        "mode": "analogy",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 1.7578,
+      "coupling": 0.5689,
+      "conic_regime": "mixed",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.482,
+        "memory": 0.4369
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.9807,
+        "memory": 0.799
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.2065,
+        "memory": 0.0005
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.6827,
+        "asymmetry": -0.4014,
+        "mode": "analogy",
+        "tetra_state": "affirmed"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.4357,
+        "asymmetry": 0.3405,
+        "mode": "analogy",
+        "tetra_state": "affirmed"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.1973,
+      "coupling": 0.4551,
+      "conic_regime": "mixed",
+      "role_permuted": false,
+      "distance_shifted": true,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4631,
+        "memory": 0.3582
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.9938,
+        "memory": 0.8352
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1361,
+        "memory": 0.0004
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.6147,
+        "asymmetry": -0.475,
+        "mode": "analogy",
+        "tetra_state": "affirmed"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.4093,
+        "asymmetry": 0.3663,
+        "mode": "analogy",
+        "tetra_state": "affirmed"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.1973,
+      "coupling": 0.4551,
+      "conic_regime": "mixed",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4427,
+        "memory": 0.2938
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.912,
+        "memory": 0.8649
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1473,
+        "memory": 0.0003
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.4327,
+        "asymmetry": -0.5141,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.3151,
+        "asymmetry": 0.3799,
+        "mode": "analogy",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.1973,
+      "coupling": 0.4551,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": true
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4594,
+        "memory": 0.2409
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.9059,
+        "memory": 0.8892
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.0906,
+        "memory": 0.0003
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.5349,
+        "asymmetry": -0.3618,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.5279,
+        "asymmetry": -0.3256,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.1973,
+      "coupling": 0.4551,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4625,
+        "memory": 0.1975
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8449,
+        "memory": 0.9091
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1841,
+        "memory": 0.0002
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.4216,
+        "asymmetry": -0.4572,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.4373,
+        "asymmetry": -0.4115,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.1973,
+      "coupling": 0.4551,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4707,
+        "memory": 0.162
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8364,
+        "memory": 0.9255
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1112,
+        "memory": 0.0002
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.4898,
+        "asymmetry": -0.4348,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.4918,
+        "asymmetry": -0.3913,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.1973,
+      "coupling": 0.4551,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4709,
+        "memory": 0.1328
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.7947,
+        "memory": 0.9389
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1211,
+        "memory": 0.0002
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.4184,
+        "asymmetry": -0.3188,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.4347,
+        "asymmetry": -0.2869,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.1973,
+      "coupling": 0.4551,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4889,
+        "memory": 0.1089
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8718,
+        "memory": 0.9499
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1992,
+        "memory": 0.0001
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.631,
+        "asymmetry": -0.3186,
+        "mode": "contrariety",
+        "tetra_state": "both"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.6048,
+        "asymmetry": -0.2868,
+        "mode": "contrariety",
+        "tetra_state": "both"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.1973,
+      "coupling": 0.4551,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4926,
+        "memory": 0.0893
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8668,
+        "memory": 0.9589
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1454,
+        "memory": 0.0001
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.513,
+        "asymmetry": -0.3429,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.5104,
+        "asymmetry": -0.3086,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.1973,
+      "coupling": 0.4551,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4958,
+        "memory": 0.0732
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8651,
+        "memory": 0.9663
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1103,
+        "memory": 0.0001
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.5167,
+        "asymmetry": -0.4012,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.5133,
+        "asymmetry": -0.3611,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.7466,
+      "coupling": 0.3641,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": true,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4951,
+        "memory": 0.06
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8454,
+        "memory": 0.9724
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.0878,
+        "memory": 0.0001
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.4797,
+        "asymmetry": -0.3628,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.4837,
+        "asymmetry": -0.3265,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.7466,
+      "coupling": 0.3641,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.5013,
+        "memory": 0.0492
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8716,
+        "memory": 0.9774
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.0975,
+        "memory": 0.0001
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.5597,
+        "asymmetry": -0.3857,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.5478,
+        "asymmetry": -0.3472,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.7466,
+      "coupling": 0.3641,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4941,
+        "memory": 0.0404
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.819,
+        "memory": 0.9814
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.0528,
+        "memory": 0.0
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.4177,
+        "asymmetry": -0.4449,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.4341,
+        "asymmetry": -0.4004,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.7466,
+      "coupling": 0.3641,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.5011,
+        "memory": 0.0331
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8567,
+        "memory": 0.9848
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1387,
+        "memory": 0.0
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.5669,
+        "asymmetry": -0.4088,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.5535,
+        "asymmetry": -0.3679,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.7466,
+      "coupling": 0.3641,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.503,
+        "memory": 0.0271
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8625,
+        "memory": 0.9875
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.131,
+        "memory": 0.0
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.5256,
+        "asymmetry": -0.3608,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.5205,
+        "asymmetry": -0.3247,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.7466,
+      "coupling": 0.3641,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4984,
+        "memory": 0.0223
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.831,
+        "memory": 0.9898
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.132,
+        "memory": 0.0
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.4544,
+        "asymmetry": -0.4174,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.4636,
+        "asymmetry": -0.3757,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.7466,
+      "coupling": 0.3641,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4975,
+        "memory": 0.0183
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.8238,
+        "memory": 0.9916
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.1337,
+        "memory": 0.0
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.4842,
+        "asymmetry": -0.3163,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.4874,
+        "asymmetry": -0.2847,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.7466,
+      "coupling": 0.3641,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "B",
+        "intensity": 0.4927,
+        "memory": 0.015
+      },
+      "B": {
+        "label": "A",
+        "intensity": 0.7948,
+        "memory": 0.9931
+      },
+      "C": {
+        "label": "C",
+        "intensity": 0.0906,
+        "memory": 0.0
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.4363,
+        "asymmetry": -0.316,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.449,
+        "asymmetry": -0.2844,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "noise",
+      "distance": 2.7466,
+      "coupling": 0.3641,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.0565,
+        "memory": 0.0
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.5016,
+        "memory": 0.0123
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.8489,
+        "memory": 0.9944
+      },
+      "relation_AB": {
+        "source": "B",
+        "target": "A",
+        "intensity": 0.5852,
+        "asymmetry": -0.256,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "A",
+        "target": "B",
+        "intensity": 0.5682,
+        "asymmetry": -0.2304,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "metastability",
+      "distance": 2.7466,
+      "coupling": 0.3641,
+      "conic_regime": "hyperbola",
+      "role_permuted": true,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.164,
+        "memory": 0.0
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.6078,
+        "memory": 0.1901
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.7919,
+        "memory": 0.9954
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.5134,
+        "asymmetry": -0.4299,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.5107,
+        "asymmetry": -0.3869,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "metastability",
+      "distance": 2.7466,
+      "coupling": 0.3641,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.2466,
+        "memory": 0.0
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.6869,
+        "memory": 0.3359
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.7481,
+        "memory": 0.9962
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.5227,
+        "asymmetry": -0.4311,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.5182,
+        "asymmetry": -0.3879,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "metastability",
+      "distance": 2.7466,
+      "coupling": 0.3641,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    },
+    {
+      "A": {
+        "label": "C",
+        "intensity": 0.3099,
+        "memory": 0.0
+      },
+      "B": {
+        "label": "B",
+        "intensity": 0.7459,
+        "memory": 0.4554
+      },
+      "C": {
+        "label": "A",
+        "intensity": 0.7147,
+        "memory": 0.9969
+      },
+      "relation_AB": {
+        "source": "C",
+        "target": "B",
+        "intensity": 0.5303,
+        "asymmetry": -0.4294,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "implied_relation_BA": {
+        "source": "B",
+        "target": "C",
+        "intensity": 0.5242,
+        "asymmetry": -0.3865,
+        "mode": "contrariety",
+        "tetra_state": "neither"
+      },
+      "mode_of_C": "metastability",
+      "distance": 2.7466,
+      "coupling": 0.3641,
+      "conic_regime": "hyperbola",
+      "role_permuted": false,
+      "distance_shifted": false,
+      "mode_shifted": false
+    }
+  ]
+}
