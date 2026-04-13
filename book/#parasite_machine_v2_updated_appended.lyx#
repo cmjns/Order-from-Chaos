@@ -1,0 +1,3583 @@
+#LyX 2.5 created this file. For more info see https://www.lyx.org/
+\lyxformat 643
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+
+\usepackage{amsthm}
+
+\title{The Parasite Machine (Updated):\\
+Asymmetry, Self-Referential Logic, and Conic Regimes\\
+\large With Appended Refinement on Internal Dynamical Fields}
+\author{}
+
+
+\newtheorem{definition}{Definition}
+\end_preamble
+\use_default_options false
+\begin_modules
+enumitem
+theorems-ams
+\end_modules
+\maintain_unincluded_children no
+\begin_local_layout
+Provides newtheorem:definition 1
+\end_local_layout
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\crossref_package prettyref
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\backgroundcolor none
+\fontcolor none
+\notefontcolor lightgray
+\boxbgcolor red
+\table_border_color default
+\table_odd_row_color default
+\table_even_row_color default
+\table_alt_row_colors_start 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip halfline
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\docbook_mathml_version 0
+\end_header
+
+\begin_body
+
+\begin_layout Part
+Abstract
+\end_layout
+
+\begin_layout Standard
+This document presents an expanded and refined formalization of the Parasite machine.
+ We integrate:
+ 
+\end_layout
+
+\begin_layout Itemize
+asymmetric relations as locally generated intensities,
+ 
+\end_layout
+
+\begin_layout Itemize
+implied counter-relations via representational regimes,
+ 
+\end_layout
+
+\begin_layout Itemize
+the tetralemma as a self-referential dynamical system,
+ 
+\end_layout
+
+\begin_layout Itemize
+and conic geometry as curvature of implication.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Proposed Outline
+\end_layout
+
+\begin_layout Enumerate
+1.
+ The virtual,
+ Multiplicity,
+ Intensity
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+1.1 Differential field,
+ not undifferentiated pre-relationality
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+reject “undifferentiated pre-relationality”
+\end_layout
+
+\begin_layout Enumerate
+begin from a differential field or virtual multiplicity
+\end_layout
+
+\begin_layout Enumerate
+note that the virtual is not vague or empty,
+ but differentially structured
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+1.2 Multiplicity
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+multiplicity is not a collection of many things
+\end_layout
+
+\begin_layout Enumerate
+no prior One needed to unify it
+\end_layout
+
+\begin_layout Enumerate
+internally organized by variables,
+ relations,
+ singular points
+\end_layout
+
+\begin_layout Enumerate
+intrinsically delimited by order and metric,
+ not external boundaries
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+1.3 Intensity
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+intensity as genetic operator of actualization
+\end_layout
+
+\begin_layout Enumerate
+intensity as implicated difference
+\end_layout
+
+\begin_layout Enumerate
+unequal,
+ ordinal,
+ asymmetrical character of intensive distance
+\end_layout
+
+\begin_layout Enumerate
+dissymmetry as positive,
+ not privative
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+1.4 Bridge claim
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+the unequal is primary
+\end_layout
+
+\begin_layout Enumerate
+symmetry is not primitive here
+\end_layout
+
+\begin_layout Enumerate
+actualization is driven by intensity,
+ not neutral extension
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+2.
+ Manifolds,
+ Topology as the Articulation of Multiplicity
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+2.1 Why multiplicity is manifold-like but not reducible to manifold
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+logical connection,
+ not only etymological
+\end_layout
+
+\begin_layout Enumerate
+manifold as formal intuition of internally structured variation
+\end_layout
+
+\begin_layout Enumerate
+multiplicity exceeds manifold because it includes virtuality,
+ singularity,
+ problematic structure
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+2.2 Topology as articulation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+topology names articulated structure prior to formed objects
+\end_layout
+
+\begin_layout Enumerate
+internal variables,
+ relations,
+ singular points
+\end_layout
+
+\begin_layout Enumerate
+no privileged center
+\end_layout
+
+\begin_layout Enumerate
+topology as actualizable organization of multiplicity
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+2.3 Projection / loss in actualization
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+actual manifold is a formalizable regime,
+ not the full virtual
+\end_layout
+
+\begin_layout Enumerate
+actualization is selective and lossy
+\end_layout
+
+\begin_layout Enumerate
+unrealized potentials remain in the virtual
+\end_layout
+
+\begin_layout Enumerate
+when formalizing manifold,
+ we formalize an actualized articulation,
+ not multiplicity in full
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+2.4 Transition to relation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+relations are slices,
+ abstractions,
+ or readable extractions from topology
+\end_layout
+
+\begin_layout Enumerate
+relation is not primitive;
+ topology conditions relation
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+3.
+ Asymmetry of Relation (First component of Parasite)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+3.1 Directionality vs asymmetry
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+keep these distinct
+\end_layout
+
+\begin_layout Enumerate
+directionality = oriented articulation
+\end_layout
+
+\begin_layout Enumerate
+asymmetry = imbalance or non-equivalence of directional relations
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+3.2 Grammar of relation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+“A relates to B” and “B relates to A” are different directional articulations
+\end_layout
+
+\begin_layout Enumerate
+grammar already implies orientation
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+3.3 Equilibrium as composed directionality
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+symmetry is not absence of direction
+\end_layout
+
+\begin_layout Enumerate
+symmetry is a local balancing of directional relations
+\end_layout
+
+\begin_layout Enumerate
+fluctuation reveals already tensioned composition
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+3.4 Stronger ontological claim
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+asymmetrical intensive difference conditions relational articulation
+\end_layout
+
+\begin_layout Enumerate
+symmetry is local,
+ achieved,
+ projected
+\end_layout
+
+\begin_layout Enumerate
+relation is conditioned by topological directionality/asymmetry
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+4.
+ Relation as Mediation (Second component of Parasite)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+4.1 Relation is not immediacy
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+actual relation requires channel,
+ spacing,
+ delay,
+ passage
+\end_layout
+
+\begin_layout Enumerate
+pure immediacy would erase relation as relation
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+4.2 Mediation as constitutive
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+relation exists only as mediated relation
+\end_layout
+
+\begin_layout Enumerate
+mediation is not external to relation but constitutive of it
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+4.3 Implied counter-relation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+reciprocity is not given
+\end_layout
+
+\begin_layout Enumerate
+return is implied according to mode
+\end_layout
+
+\begin_layout Enumerate
+relation folds back on itself differently under different regimes
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+4.4 Bridge to parasite
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+once relation is mediation,
+ it is vulnerable to interruption,
+ deformation,
+ redirection
+\end_layout
+
+\begin_layout Enumerate
+this is where parasite becomes entailed
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+5.
+ Dynamics of Mediation:
+ Noise ↔ Signal Gradient
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+5.1 Two senses of noise
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+primordial / morphogenetic noise
+\end_layout
+
+\begin_layout Enumerate
+relational / communicational noise
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+5.2 Noise and signal as gradient
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+what counts as signal/noise depends on position,
+ channel,
+ context
+\end_layout
+
+\begin_layout Enumerate
+Serres’ table / hallway / telephone logic
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+5.3 Structure and noise
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+structure does not simply oppose noise
+\end_layout
+
+\begin_layout Enumerate
+structure pervaded by noise
+\end_layout
+
+\begin_layout Enumerate
+relational structure and communicational noise co-constitute one another
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+5.4 Parasite entailed by mediation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+no channel without noise
+\end_layout
+
+\begin_layout Enumerate
+parasite names constitutive non-immediacy of mediated relation
+\end_layout
+
+\begin_layout Enumerate
+parasite is not added later to pure relation
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+6.
+ Dynamics of Tetralemma
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+6.1 Why the tetralemma is entailed
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+not by asymmetry alone
+\end_layout
+
+\begin_layout Enumerate
+by mediated,
+ parasitized,
+ non-self-identical relation
+\end_layout
+
+\begin_layout Enumerate
+binary relation/nonrelation becomes insufficient
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+6.2 Relation,
+ nonrelation,
+ both,
+ neither
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+relation as constitutively split by noise/parasitism
+\end_layout
+
+\begin_layout Enumerate
+relation can no longer be self-identical
+\end_layout
+
+\begin_layout Enumerate
+tetralemma is appropriate logical form of mediated relation
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+6.3 Tetralemma as state-space
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+not a truth table
+\end_layout
+
+\begin_layout Enumerate
+dynamic traversal
+\end_layout
+
+\begin_layout Enumerate
+self-referential transitions rather than fixed corner choice
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+6.4 Conics of the tetralemma
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+ellipse:
+ closure / mutual implication
+\end_layout
+
+\begin_layout Enumerate
+parabola:
+ one-sided drift / threshold
+\end_layout
+
+\begin_layout Enumerate
+hyperbola:
+ divergence / instability
+\end_layout
+
+\begin_layout Enumerate
+mixed:
+ transformation / ambiguity
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+7.
+ Dynamics of Representation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+7.1 Representation is secondary
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+representation is not primitive correspondence
+\end_layout
+
+\begin_layout Enumerate
+it is a capture of a more primary dynamic field
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+7.2 Tetralemma as generative of representation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+tetralemmatic instability pressures representation
+\end_layout
+
+\begin_layout Enumerate
+representation resolves or captures that instability
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+7.3 Four shackles
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+identity
+\end_layout
+
+\begin_layout Enumerate
+opposition
+\end_layout
+
+\begin_layout Enumerate
+analogy
+\end_layout
+
+\begin_layout Enumerate
+resemblance
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+7.4 How they map
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+not strict one-to-one equivalence with tetralemma
+\end_layout
+
+\begin_layout Enumerate
+rather:
+ representational operators stabilize fourfold logical pressure
+\end_layout
+
+\begin_layout Enumerate
+identity stabilizes affirmation
+\end_layout
+
+\begin_layout Enumerate
+opposition stabilizes contradiction
+\end_layout
+
+\begin_layout Enumerate
+analogy/resemblance manage non-actual and indeterminate poles
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+8.
+ Dynamics of the Parasite (Parasite Revised)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+8.1 From simplex to field-first model
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+objection to thumb-tacks-and-yarn image
+\end_layout
+
+\begin_layout Enumerate
+simplex as coarse-grained projection
+\end_layout
+
+\begin_layout Enumerate
+parasite acts on field/topology first
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+8.2 Vertices as internal dynamical fields
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A,
+ B,
+ C as folds or local fields
+\end_layout
+
+\begin_layout Enumerate
+relation penetrates the vertex
+\end_layout
+
+\begin_layout Enumerate
+local terms are internally dynamic
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+8.3 Role permutation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+no intrinsic roles
+\end_layout
+
+\begin_layout Enumerate
+sudden permutation needs regime threshold,
+ not mere randomness
+\end_layout
+
+\begin_layout Enumerate
+possible variables:
+ gain,
+ instability,
+ scale-position,
+ inclusion/exclusion
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+8.4 Distance / proximity regimes
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+far,
+ intermediate,
+ near-critical,
+ post-critical
+\end_layout
+
+\begin_layout Enumerate
+proximity changes kind of interaction,
+ not only strength
+\end_layout
+
+\begin_layout Enumerate
+role indeterminacy near singular proximity
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+8.5 Open problem
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+how exactly parasite dynamics should be formalized after all revisions
+\end_layout
+
+\begin_layout Enumerate
+especially after field-first ontology and tetralemmatic grounding
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Part*
+Ontology
+\end_layout
+
+\begin_layout Enumerate
+topology conditions relationality
+\end_layout
+
+\begin_layout Enumerate
+intensity actualizes topology into directional/asymmetrical regimes
+\end_layout
+
+\begin_layout Enumerate
+relation,
+ once actualized,
+ exists only as mediated channel
+\end_layout
+
+\begin_layout Enumerate
+mediation entails parasite/noise
+\end_layout
+
+\begin_layout Enumerate
+parasite/noise means relation is never purely itself
+\end_layout
+
+\begin_layout Enumerate
+therefore the logic of relation is tetralemmatic
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The parasite entails the tetralemma because it makes relation constitutively non-self-identical.
+\end_layout
+
+\begin_layout Enumerate
+The tetralemma is entailed not by relation in the abstract,
+ nor by asymmetry alone,
+ but by mediated relation.
+ Once relation is understood as existing only through non-immediacy —
+ through noise,
+ delay,
+ interruption,
+ and parasitic mediation —
+ it ceases to be self-identical.
+ It can no longer be captured by the binary opposition of relation and nonrelation.
+ The appropriate logic is therefore tetralemmatic:
+ relation,
+ nonrelation,
+ both,
+ and neither.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Ontogenesis
+\end_layout
+
+\begin_layout Standard
+a virtual multiplicity structured by differential relations and singular points without a privileged center.
+\end_layout
+
+\begin_layout Standard
+Then intensity gives you the bridge from that virtual multiplicity to actual form,
+ because Deleuze says intensity is implicated in itself,
+ difference in depth is composed of “distances,” and distance is “an indivisible asymmetrical relation,
+ ordinal and intensive in character.”
+\end_layout
+
+\begin_layout Enumerate
+Start from a field of differential variation rather than “undifferentiated pre-relationality.”
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Deleuze’s virtual is not vague or indeterminate in the weak sense.
+ It is “completely differentiated” even when “undifferenciated,” and it is composed of differential relations and corresponding singularities.
+\end_layout
+
+\begin_layout Enumerate
+What is first is not relation between ready-made terms,
+ but a differential field or multiplicity structured by singular points and relations without a privileged center.
+\end_layout
+
+\begin_layout Enumerate
+That already yields topology in a strong sense.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Multiplicity
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A multiplicity is “n-dimensional,
+ continuous,
+ defined,” where its dimensions are variables,
+ its continuity is the set of relations among changes in those variables,
+ and its definition is the reciprocal determination of elements by those relations.
+ Crucially,
+ those elements “cannot change unless the multiplicity changes its order and its metric.”
+\end_layout
+
+\begin_layout Enumerate
+neither simply bounded nor simply unbounded.
+ It is intrinsically delimited by its dimensions,
+ differential relations,
+ singular points,
+ order,
+ and metric.
+ Its “bounds” are structural rather than external.
+\end_layout
+
+\begin_layout Enumerate
+multiplicity is intrinsically defined,
+ “without external reference or recourse to a uniform space in which it would be submerged.”
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Intensity
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+multiplicity is still virtual unless something actualizes it
+\end_layout
+
+\begin_layout Enumerate
+that genetic operator is intensity.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Intensity is “implicated in itself,” and difference in depth is composed of distances that are “indivisible asymmetrical relation[s],
+ ordinal and intensive in character.” 
+\end_layout
+
+\begin_layout Enumerate
+In other words,
+ the manifold is not actualized by neutral extension but by intensive difference:
+ unequal,
+ ordinal,
+ asymmetrical relations are what drive the passage from virtual organization to actual form.
+ 
+\end_layout
+
+\begin_layout Enumerate
+multiplicity is the logical form of a manifold;
+ manifold is a topological field of internally related variation;
+ and intensivity is the genetic operator by which that field becomes articulated into asymmetrical relations.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Manifold
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+mathematical expression of that idea of structured variation.
+ 
+\end_layout
+
+\begin_layout Enumerate
+dimensions are the variables on which a phenomenon depends,
+ 
+\end_layout
+
+\begin_layout Enumerate
+continuity is the set of relations among changes in those variables,
+ and 
+\end_layout
+
+\begin_layout Enumerate
+definition is the reciprocal determination of the elements by those relations.
+ 
+\end_layout
+
+\begin_layout Enumerate
+a manifold is not a container with points in it;
+ it is a space whose structure is given by internal variables,
+ differential relations,
+ and singular points.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Topology is the articulation of multiplicity
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Topology names the articulated structure of the multiplicity prior to formed objects.
+\end_layout
+
+\begin_layout Enumerate
+but:
+ when we formalize a manifold,
+ we are not formalizing the multiplicity in its full virtuality.
+\end_layout
+
+\begin_layout Enumerate
+We are formalizing:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+an actualized regime,
+\end_layout
+
+\begin_layout Enumerate
+or a legible structural projection,
+\end_layout
+
+\begin_layout Enumerate
+or a local articulation that has already lost other unrealized potentials of the virtual field.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Intensivity is the genetic operator
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+intensity is implicated in itself,
+\end_layout
+
+\begin_layout Enumerate
+difference in depth is made of distances,
+\end_layout
+
+\begin_layout Enumerate
+and those distances are “indivisible asymmetrical relation[s],
+ ordinal and intensive in character.”
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+What generates topology is not neutral extension but intensive difference.
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Asymmetry is not added after the fact
+\end_layout
+
+\begin_layout Enumerate
+If the intensive passage from virtual multiplicity to actual form is already composed of asymmetrical ordinal relations,
+ then asymmetry is not a late local accident.
+ It belongs to the genetic articulation of the field.
+ Deleuze even says “difference,
+ distance and inequality are the positive characteristics” of depth as intensive spatium.
+\end_layout
+
+\begin_layout Enumerate
+Asymmetry conditions the actualization of topology into articulated relation.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Relation is a projection of topological asymmetry
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A relation is a local abstraction or slicing of a topology already conditioned by intensive asymmetry.
+\end_layout
+
+\begin_layout Enumerate
+multiplicity/topology is primary,
+\end_layout
+
+\begin_layout Enumerate
+intensity actualizes it,
+\end_layout
+
+\begin_layout Enumerate
+asymmetry belongs to that intensive articulation,
+\end_layout
+
+\begin_layout Enumerate
+relation is a local readable extraction from that process.
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+Differential multiplicity.
+ This multiplicity is topological:
+ it is structured by singular points and differential relations without a privileged center.
+ Its actualization is governed by intensity,
+ and intensity is intrinsically unequal,
+ ordinal,
+ and asymmetrical.
+ What appears as a relation is therefore not primitive but a local abstraction from a topology whose articulation is already conditioned by intensive asymmetry.
+ Symmetry is then a local achieved composition of such asymmetrical directionalities,
+ not their ground.
+\end_layout
+
+\begin_layout Standard
+We begin by rejecting neutral relations.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{definition}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+[
+\end_layout
+
+\end_inset
+
+Asymmetric Relation
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+]
+\end_layout
+
+\end_inset
+
+ A primitive relation is:
+ 
+\begin_inset Formula 
+\[
+A\xrightarrow[\iota,\delta]{}B
+\]
+
+\end_inset
+
+where:
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\iota$
+\end_inset
+
+ = intensity 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\delta$
+\end_inset
+
+ = dynamic asymmetry 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{definition}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+This implies:
+ 
+\begin_inset Formula 
+\[
+R(A,B)=(\iota_{AB},\delta_{AB})\neq(\iota_{BA},\delta_{BA})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Narrative
+\end_layout
+
+\begin_layout Standard
+A relation is not merely directional—
+it is biased,
+ weighted,
+ and dynamic.
+ Symmetry is not broken;
+ it is never assumed.
+\end_layout
+
+\begin_layout Subsection
+Asymmetry
+\end_layout
+
+\begin_layout Standard
+The sentence,
+ 
+\begin_inset Quotes eld
+\end_inset
+
+A relates to B
+\begin_inset Quotes erd
+\end_inset
+
+ already implies a directionality:
+ A is pre-positionally oriented with respect to B.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+B relates to A
+\begin_inset Quotes erd
+\end_inset
+
+ is not the same sentence expressed twice but two different statements,
+ of two different relations moving in two different directions.
+ This especially is the case as we consider that the sentence,
+ 
+\begin_inset Quotes eld
+\end_inset
+
+A relates to B
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\emph on
+implies
+\emph default
+ the statement 
+\begin_inset Quotes eld
+\end_inset
+
+B relates to A
+\begin_inset Quotes erd
+\end_inset
+
+,
+ which only adds a new directional dimension,
+ of implication.
+ 
+\end_layout
+
+\begin_layout Standard
+That means equilibrium is not the absence of direction.
+ Rather,
+ is is a local composition of directional relations whose effects balance.
+\end_layout
+
+\begin_layout Standard
+So instead of saying first there is a symmetric relation then asymmetry appears when equilibrium breaks we say that first there are directional relations and symmetry is the local state in which those directions compose into balance:
+ A acts on B,
+ B acts on A.
+ The actions are balanced enough that no net macroscopic difference appears.
+ So symmetry is not a primitive ontological condition.
+ It is a dynamic cancellation or reciprocal balancing of directional activity.
+\end_layout
+
+\begin_layout Standard
+If a random fluctuation can tip the system,
+ that suggests the equilibrium was never a neutral substrate.
+ It was already tensioned,
+ composed,
+ metastable.
+ A fluctuation does not create direction from nowhere.
+ It reveals that direction was already there in a balanced composition.
+ So asymmetry is not born at the moment of disturbance.
+ Disturbance only makes visible the directional structure already composing the equilibrium.
+\end_layout
+
+\begin_layout Standard
+The claim:
+ 
+\end_layout
+
+\begin_layout Itemize
+Any relation stated between A and B is grammatically and logically directional.
+\end_layout
+
+\begin_layout Itemize
+Apparent symmetry requires the coexistence of at least two opposed directional articulations.
+\end_layout
+
+\begin_layout Itemize
+Therefore symmetry is derivative:
+ it is a local composition of directional relations.
+\end_layout
+
+\begin_layout Itemize
+Hence asymmetry or directionality is more basic than equilibrium.
+\end_layout
+
+\begin_layout Theorem
+Relation is not primitively neutral.
+ Even where equilibrium appears,
+ it is the effect of a composition of directional relations.
+ Symmetry is therefore not the ground of relation but a local regime in which directional actions are balanced.
+\end_layout
+
+\begin_layout Standard
+I would still distinguish:
+\end_layout
+
+\begin_layout Standard
+directionality
+\end_layout
+
+\begin_layout Standard
+asymmetry
+\end_layout
+
+\begin_layout Standard
+Because two directional relations can be exactly balanced.
+\end_layout
+
+\begin_layout Standard
+So the deepest primitive may be:
+\end_layout
+
+\begin_layout Standard
+directionality is intrinsic to relation
+\end_layout
+
+\begin_layout Standard
+while:
+\end_layout
+
+\begin_layout Standard
+asymmetry names the unequal composition of directional relations
+\end_layout
+
+\begin_layout Standard
+That may be the cleanest version.
+\end_layout
+
+\begin_layout Standard
+In other words:
+\end_layout
+
+\begin_layout Standard
+relation as such may be intrinsically directional
+\end_layout
+
+\begin_layout Standard
+asymmetry appears when directional relations fail to balance
+\end_layout
+
+\begin_layout Standard
+symmetry = locally balanced directional composition
+\end_layout
+
+\begin_layout Standard
+asymmetry = locally unbalanced directional composition
+\end_layout
+
+\begin_layout Standard
+That is probably the cleanest version so far.
+\end_layout
+
+\begin_layout Standard
+What we do say now is that the relational field is emergent,
+ and that it emerges 
+\emph on
+as relational
+\emph default
+.
+ Furthermore,
+ we say that relationality emerges as asymmetrical.
+ 
+\end_layout
+
+\begin_layout Standard
+It is generated locally by the action of a third term 
+\begin_inset Formula $C$
+\end_inset
+
+.
+ The parasite produces direction by acting on an undetermined field.
+ 
+\end_layout
+
+\begin_layout Standard
+not yet stabilized as directional
+\end_layout
+
+\begin_layout Standard
+not yet legible in these terms
+\end_layout
+
+\begin_layout Standard
+not yet discretized into these distinctions
+\end_layout
+
+\begin_layout Standard
+Rather than taking directed relations as primitive,
+ we treat them as local stabilizations emerging from a field that is not yet discretized in the terms of the relation that later becomes legible.
+\end_layout
+
+\begin_layout Standard
+The key Deleuzian move is not simply “asymmetry exists.” It is that difference,
+ intensity,
+ and the unequal are primary,
+ while symmetry is secondary,
+ derivative,
+ and often the effect of cancellation.
+ In Chapter V,
+ Deleuze says that every phenomenon refers to an inequality by which it is conditioned,
+ and that “disparity,” “difference of intensity,” and “the Unequal in itself” are the sufficient reason of what appears.
+ That is very close to your intuition that some minimal asymmetry conditions whatever directionality later becomes legible.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+He then sharpens it even more.
+ In the section on intensity,
+ Deleuze explicitly says that “difference,
+ distance and inequality are the positive characteristics” of intensive depth,
+ and he describes distance itself as “an indivisible asymmetrical relation,
+ ordinal and intensive in character.” That is extremely resonant with your distinction between directionality and asymmetry:
+ Deleuze is not starting from neutral relation and then adding asymmetry later.
+ He is treating asymmetrical,
+ intensive difference as primitive.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+The passage that really seems to answer your question is the one on rhythm and symmetry.
+ There Deleuze says:
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+the phrase “lack of symmetry” is misleading because it actually points to the positivity of the causal process;
+\end_layout
+
+\begin_layout Standard
+dynamic repetition is driven by an internal difference;
+\end_layout
+
+\begin_layout Standard
+“elements of dissymmetry” serve as both genetic principle and principle of reflection for symmetrical figures;
+\end_layout
+
+\begin_layout Standard
+and “the unequal is the most positive element.”
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+That is almost exactly your argument:
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+symmetry is not primordial;
+\end_layout
+
+\begin_layout Standard
+symmetry is generated from a prior dissymmetry;
+\end_layout
+
+\begin_layout Standard
+dissymmetry is not a defect but the positive genetic condition.
+\end_layout
+
+\begin_layout Standard
+There is also a broader architectural support in Difference and Repetition.
+ Deleuze’s critique of representation is precisely a critique of the subordination of difference to identity,
+ resemblance,
+ opposition,
+ and analogy —
+ the four “illusions” or shackles we’ve been discussing.
+ The book’s contents and preface make clear that his whole project is to think “difference in itself” rather than difference subordinated to those stabilizing representational forms.
+ That does not by itself prove your asymmetry thesis,
+ but it does support your broader move away from symmetry as default.
+\end_layout
+
+\begin_layout Itemize
+Directionality is not the deepest primitive;
+ asymmetrical intensive difference is.
+\end_layout
+
+\begin_layout Itemize
+Directionality is one way that primitive dissymmetry becomes articulated,
+ while symmetry is a secondary local composition or projection generated from that prior dissymmetry.
+\end_layout
+
+\begin_layout Standard
+what conditions relational articulation is an intrinsic positivity of unequal,
+ asymmetrical intensity.”
+\end_layout
+
+\begin_layout Standard
+Deleuze gives you a strong argument for the primacy of dissymmetry / the unequal,
+ but he does not state your exact formulation in the vocabulary of topology-conditioning-relation.
+ That last step is still yours.
+ What he does give you is the conceptual support you need:
+\end_layout
+
+\begin_layout Itemize
+the unequal is positive,
+\end_layout
+
+\begin_layout Itemize
+asymmetrical relation is intensive,
+\end_layout
+
+\begin_layout Itemize
+and symmetrical forms arise from prior dissymmetrical elements rather than the other way around.
+\begin_inset Formula 
+\[
+A\xrightarrow[\iota,\delta]{}B
+\]
+
+\end_inset
+
+is a stabilization,
+ not a foundation.
+\end_layout
+
+\begin_layout Part*
+The Parasite
+\end_layout
+
+\begin_layout Standard
+We define a minimal machine that operates on relations rather than substances.
+ It consists of a directed relation 
+\begin_inset Formula $A\rightarrow B$
+\end_inset
+
+ and a third position 
+\begin_inset Formula $C$
+\end_inset
+
+ that acts on the relation.
+ The third position (the parasite) can operate either as noise or as a metastable entity.
+ Roles 
+\begin_inset Formula $(A,B,C)$
+\end_inset
+
+ are not intrinsic and may permute suddenly and without warning.
+ A distance parameter controls the strength of 
+\begin_inset Formula $C$
+\end_inset
+
+'s action.
+ We show how this machine generates structure without conserved quantities or predefined ontology.
+\end_layout
+
+\begin_layout Standard
+The condition for role permutation remains unspecified.
+ The signatory of the concept (Michel Serres) does gives us suddenness,
+ circularity,
+ feedback,
+ sequence,
+ and interruption,
+ but no clear variable.
+\end_layout
+
+\begin_layout Section*
+1.
+ Primitive structure
+\end_layout
+
+\begin_layout Standard
+We begin with a directed relation:
+ 
+\begin_inset Formula 
+\[
+A\rightarrow B
+\]
+
+\end_inset
+
+and a third position 
+\begin_inset Formula $C$
+\end_inset
+
+ that acts on the relation:
+ 
+\begin_inset Formula 
+\[
+C\triangleright(A\rightarrow B).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Note:
+ 
+\begin_inset Formula $A,B,C$
+\end_inset
+
+ are positions within a relational configuration.
+ We will have more to say about the positions (also referred to as 
+\begin_inset Quotes xld
+\end_inset
+
+stations
+\begin_inset Quotes xrd
+\end_inset
+
+).
+ It will suffice for now to note that these positions are not occupied by substances but by metastable configurations.
+\end_layout
+
+\begin_layout Section*
+2.
+ Distance and coupling
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $d\ge0$
+\end_inset
+
+ denote the distance of 
+\begin_inset Formula $C$
+\end_inset
+
+ to the relation.
+ Define coupling:
+ 
+\begin_inset Formula 
+\[
+k=\frac{1}{d+\epsilon}.
+\]
+
+\end_inset
+
+As 
+\begin_inset Formula $d\to\infty$
+\end_inset
+
+,
+ 
+\begin_inset Formula $k\to0$
+\end_inset
+
+ (negligible influence).
+ As 
+\begin_inset Formula $d\to0$
+\end_inset
+
+,
+ 
+\begin_inset Formula $k\to\infty$
+\end_inset
+
+ (dominant influence).
+\end_layout
+
+\begin_layout Section*
+3.
+ Noise and metastability
+\end_layout
+
+\begin_layout Standard
+The third position 
+\begin_inset Formula $C$
+\end_inset
+
+ operates in two regimes:
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\series bold
+Noise
+\series default
+:
+ perturbative,
+ destabilizing.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Metastability
+\series default
+:
+ stabilized,
+ structuring.
+ 
+\end_layout
+
+\begin_layout Standard
+These are not distinct ontologies but regimes of the same position.
+\end_layout
+
+\begin_layout Section*
+4.
+ Transformation of relations
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $R(A,B)$
+\end_inset
+
+ denote the baseline relation strength.
+ Define a transformation:
+ 
+\begin_inset Formula 
+\[
+R'(A,B)=T(R(A,B),C,k).
+\]
+
+\end_inset
+
+Two cases:
+ 
+\begin_inset Formula 
+\begin{align*}
+\text{Noise: } & R'=R+\eta(C)\,k\\
+\text{Metastability: } & R'=R+\alpha\,C\,k
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $\eta$
+\end_inset
+
+ is a stochastic perturbation and 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ a scaling constant.
+\end_layout
+
+\begin_layout Section*
+5.
+ Role permutation
+\end_layout
+
+\begin_layout Standard
+Positions are not fixed.
+ Let 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ be a permutation:
+ 
+\begin_inset Formula 
+\[
+(A,B,C)\mapsto\sigma(A,B,C).
+\]
+
+\end_inset
+
+This encodes sudden reassignment of roles.
+\end_layout
+
+\begin_layout Section*
+6.
+ Iteration
+\end_layout
+
+\begin_layout Standard
+The machine evolves by iteration:
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+compute transformed relation 
+\begin_inset Formula $R'$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+update positions 
+\begin_inset Formula $(A,B,C)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+possibly permute roles 
+\end_layout
+
+\begin_layout Enumerate
+possibly adjust distance 
+\begin_inset Formula $d$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Formally:
+ 
+\begin_inset Formula 
+\[
+(A,B,C)_{t+1}=\Phi(A,B,C,d).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+7.
+ Emergence
+\end_layout
+
+\begin_layout Standard
+Without assuming:
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+conserved quantities,
+ 
+\end_layout
+
+\begin_layout Itemize
+substances,
+ 
+\end_layout
+
+\begin_layout Standard
+the system produces:
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+stable regimes,
+ 
+\end_layout
+
+\begin_layout Itemize
+clusters,
+ 
+\end_layout
+
+\begin_layout Itemize
+metastable entities,
+ 
+\end_layout
+
+\begin_layout Itemize
+shifting relations.
+ 
+\end_layout
+
+\begin_layout Section*
+8.
+ Interpretation
+\end_layout
+
+\begin_layout Standard
+The Parasite machine demonstrates:
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+structure emerges from relational transformation,
+ 
+\end_layout
+
+\begin_layout Itemize
+noise and entity are phase regimes,
+ 
+\end_layout
+
+\begin_layout Itemize
+roles are positional,
+ not intrinsic,
+ 
+\end_layout
+
+\begin_layout Itemize
+ontology is not presupposed but produced.
+ 
+\end_layout
+
+\begin_layout Section*
+9.
+ Final statement
+\end_layout
+
+\begin_layout Standard
+A system of relations,
+ perturbed and stabilized by a third term,
+ can generate entities and structure without recourse to conserved substance or fixed ontology.
+\end_layout
+
+\begin_layout Section
+The Parasite
+\end_layout
+
+\begin_layout Standard
+First,
+ topology conditions relation.
+ On your Deleuzian side,
+ actualized relations are already conditioned by intensive asymmetry;
+ the unequal and asymmetrical distance are positive and genetic,
+ not secondary.
+\end_layout
+
+\begin_layout Standard
+Second,
+ relation entails mediation.
+ A relation that exists is not pure identity or perfect transmission;
+ it requires channels,
+ transformations,
+ spacing,
+ delay,
+ and passage.
+ Serres’ point is exactly that perfect relation would disappear into immediacy and cease to be observable as relation.
+ Actual relation exists only as mediated relation.
+\end_layout
+
+\begin_layout Standard
+Third,
+ mediation entails noise/parasitism.
+ Once mediation exists,
+ noise is not optional.
+ Guilherme’s summary of Serres is useful here:
+ messages must pass through means and modes of communication,
+ and that necessarily interferes with the message;
+ noise is therefore constitutive of communication.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C\triangleright_{m}R(A,B)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+The parasite acts on:
+ 
+\end_layout
+
+\begin_layout Itemize
+intensity,
+ 
+\end_layout
+
+\begin_layout Itemize
+asymmetry,
+ 
+\end_layout
+
+\begin_layout Itemize
+implied relation,
+ 
+\end_layout
+
+\begin_layout Itemize
+representational regime,
+ 
+\end_layout
+
+\begin_layout Itemize
+logical state.
+ 
+\end_layout
+
+\begin_layout Standard
+It is not external.
+ It is the condition under which relations take form.
+\end_layout
+
+\begin_layout Section
+Implied Counter-Relation
+\end_layout
+
+\begin_layout Standard
+Reciprocity is not given.
+ It is implied,
+ and the form of implication depends on a mode 
+\begin_inset Formula $m$
+\end_inset
+
+.
+\begin_inset Formula 
+\[
+\Phi_{m}:R(A,B)\mapsto R(B,A)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Representation as Curvature
+\end_layout
+
+\begin_layout Standard
+Representation is not correspondence.
+ It is curvature.
+\end_layout
+
+\begin_layout Standard
+Each mode determines how a relation folds back onto itself.
+\end_layout
+
+\begin_layout Itemize
+Identity closes (ellipse) 
+\end_layout
+
+\begin_layout Itemize
+Resemblance drifts (parabola) 
+\end_layout
+
+\begin_layout Itemize
+Analogy transforms (mixed) 
+\end_layout
+
+\begin_layout Itemize
+Contrariety diverges (hyperbola) 
+\begin_inset Formula 
+\[
+\mathcal{M}=\{Id,Res,An,Con\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\kappa(m)\in\{ellipse,parabola,hyperbola,mixed\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+7.
+ The Tetralemma (Dynamical)
+\end_layout
+
+\begin_layout Standard
+the four shackles are not four truth-values.
+ They are four representational operators that subordinate difference:
+\end_layout
+
+\begin_layout Standard
+identity of the concept
+\end_layout
+
+\begin_layout Standard
+opposition of predicates
+\end_layout
+
+\begin_layout Standard
+analogy of judgment
+\end_layout
+
+\begin_layout Standard
+resemblance of the perceived.
+\end_layout
+
+\begin_layout Standard
+The tetralemma,
+ by contrast,
+ is a fourfold of logical determination:
+\end_layout
+
+\begin_layout Standard
+affirmed
+\end_layout
+
+\begin_layout Standard
+negated
+\end_layout
+
+\begin_layout Standard
+both
+\end_layout
+
+\begin_layout Standard
+neither
+\end_layout
+
+\begin_layout Standard
+So the better relation is not identity but capture.
+\end_layout
+
+\begin_layout Standard
+Better formulation
+\end_layout
+
+\begin_layout Standard
+The tetralemma gives four unstable logical possibilities:
+\end_layout
+
+\begin_layout Standard
+P
+\end_layout
+
+\begin_layout Standard
+P
+\end_layout
+
+\begin_layout Standard
+¬P
+\end_layout
+
+\begin_layout Standard
+¬P
+\end_layout
+
+\begin_layout Standard
+P∧¬P
+\end_layout
+
+\begin_layout Standard
+P∧¬P
+\end_layout
+
+\begin_layout Standard
+neither 
+\end_layout
+
+\begin_layout Standard
+P
+\end_layout
+
+\begin_layout Standard
+P nor 
+\end_layout
+
+\begin_layout Standard
+¬P
+\end_layout
+
+\begin_layout Standard
+¬P
+\end_layout
+
+\begin_layout Standard
+Representation cannot tolerate that instability.
+\end_layout
+
+\begin_layout Standard
+So it translates the fourfold pressure into four stabilizing mechanisms:
+\end_layout
+
+\begin_layout Standard
+identity tries to stabilize 
+\end_layout
+
+\begin_layout Standard
+P
+\end_layout
+
+\begin_layout Standard
+P as self-sameness
+\end_layout
+
+\begin_layout Standard
+opposition tries to stabilize 
+\end_layout
+
+\begin_layout Standard
+P/¬P
+\end_layout
+
+\begin_layout Standard
+P/¬P as contradiction
+\end_layout
+
+\begin_layout Standard
+analogy mediates between incompatible determinations by proportional ordering
+\end_layout
+
+\begin_layout Standard
+resemblance manages indeterminacy by folding it into perceptual likeness
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathcal{T}=\{affirmed,\ negated,\ both,\ neither\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+The tetralemma is not a classification of truth.
+\end_layout
+
+\begin_layout Standard
+It is a state space.
+\end_layout
+
+\begin_layout Subsection*
+Crucial Shift
+\end_layout
+
+\begin_layout Standard
+We do not select a corner.
+\end_layout
+
+\begin_layout Standard
+Instead:
+ 
+\begin_inset Formula 
+\[
+\tau_{t+1}=\tau(\tau_{t},R,\Phi,C)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+The system traverses the tetralemma.
+\end_layout
+
+\begin_layout Standard
+Symmetry and asymmetry are not global properties.
+ They are regimes that appear and disappear through this traversal.
+\end_layout
+
+\begin_layout Section
+8.
+ Conic Regimes and Logic
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+The tetralemma and conics are not separate.
+\end_layout
+
+\begin_layout Standard
+They describe the same structure from different perspectives.
+\end_layout
+
+\begin_layout Itemize
+Ellipse:
+ closure,
+ mutual implication,
+ stability of 
+\begin_inset Quotes eld
+\end_inset
+
+both
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Parabola:
+ threshold,
+ drift,
+ one-sided implication 
+\end_layout
+
+\begin_layout Itemize
+Hyperbola:
+ divergence,
+ separation,
+ instability 
+\end_layout
+
+\begin_layout Itemize
+Mixed:
+ transformation,
+ mediation,
+ ambiguity 
+\end_layout
+
+\begin_layout Standard
+Thus:
+ 
+\begin_inset Formula 
+\[
+\text{logic}=\text{geometry}=\text{dynamics}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+9.
+ Full Machine
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{definition}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+P=(A,B,C,R,\Phi,m,\tau,d)
+\]
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{definition}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P'=\Psi(P)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+Everything evolves.
+\end_layout
+
+\begin_layout Standard
+At each step:
+ 
+\end_layout
+
+\begin_layout Itemize
+a relation is generated,
+ 
+\end_layout
+
+\begin_layout Itemize
+a counter-relation is implied,
+ 
+\end_layout
+
+\begin_layout Itemize
+a tetralemmatic state is proposed,
+ 
+\end_layout
+
+\begin_layout Itemize
+that state is transformed,
+ 
+\end_layout
+
+\begin_layout Itemize
+positions are updated,
+ 
+\end_layout
+
+\begin_layout Itemize
+roles may permute,
+ 
+\end_layout
+
+\begin_layout Itemize
+regimes may shift.
+ 
+\end_layout
+
+\begin_layout Section
+10.
+ Computational Instantiation
+\end_layout
+
+\begin_layout Standard
+The Python implementation realizes this machine explicitly.
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+The code demonstrates:
+ 
+\end_layout
+
+\begin_layout Itemize
+asymmetry as dynamic,
+ 
+\end_layout
+
+\begin_layout Itemize
+reciprocity as derived,
+ 
+\end_layout
+
+\begin_layout Itemize
+logic as evolving,
+ 
+\end_layout
+
+\begin_layout Itemize
+representation as regime,
+ 
+\end_layout
+
+\begin_layout Itemize
+and the parasite as operator.
+ 
+\end_layout
+
+\begin_layout Standard
+The distinction between:
+ 
+\end_layout
+
+\begin_layout Itemize
+candidate tetralemma state,
+ 
+\end_layout
+
+\begin_layout Itemize
+updated tetralemma state 
+\end_layout
+
+\begin_layout Standard
+is critical.
+\end_layout
+
+\begin_layout Standard
+It shows that logic is not read off the system—
+it is transformed by it.
+\end_layout
+
+\begin_layout Section
+11.
+ Conceptual Synthesis
+\end_layout
+
+\begin_layout Itemize
+There is no global symmetry.
+ 
+\end_layout
+
+\begin_layout Itemize
+There is no global asymmetry.
+ 
+\end_layout
+
+\begin_layout Itemize
+The system does not resolve this.
+ 
+\end_layout
+
+\begin_layout Itemize
+It continuously rearticulates it.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Interim Statement
+\end_layout
+
+\begin_layout Standard
+A world emerges from:
+ 
+\end_layout
+
+\begin_layout Itemize
+a pre-relational field,
+ 
+\end_layout
+
+\begin_layout Itemize
+local generation of asymmetry,
+ 
+\end_layout
+
+\begin_layout Itemize
+mode-dependent implication,
+ 
+\end_layout
+
+\begin_layout Itemize
+self-referential traversal of logical regimes,
+ 
+\end_layout
+
+\begin_layout Itemize
+and parasitic mediation.
+ 
+\end_layout
+
+\begin_layout Section
+Representation as Curvature
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{definition}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+[
+\end_layout
+
+\end_inset
+
+Modes
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+\mathcal{M}=\{Id,Res,An,Con\}
+\]
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{definition}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Each mode determines implication:
+\end_layout
+
+\begin_layout Subsection*
+Identity (Ellipse)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Phi_{Id}(R(A,B))\approx R(B,A)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+Strong reciprocity.
+ Closure.
+ Mutual implication.
+\end_layout
+
+\begin_layout Subsection*
+Resemblance (Parabola)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Phi_{Res}(R(A,B))=\lambda R(B,A),\quad0<\lambda<1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+Partial return.
+ One-sided drift.
+ Threshold behavior.
+\end_layout
+
+\begin_layout Subsection*
+Analogy (Transformation)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Phi_{An}(R(A,B))=T(R(B,A))
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+Return is transformed,
+ not mirrored.
+ Structure preserved,
+ content altered.
+\end_layout
+
+\begin_layout Subsection*
+Contrariety (Hyperbola)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Phi_{Con}(R(A,B))=R(B,A)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+Return amplifies divergence.
+ The system splits rather than closes.
+\end_layout
+
+\begin_layout Section
+Conic Mapping
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\kappa(m)\in\{ellipse,parabola,hyperbola,mixed\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+Representation is not epistemic—
+it is geometric.
+ Each mode defines curvature in relational space.
+\end_layout
+
+\begin_layout Section
+Full System
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{definition}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+[
+\end_layout
+
+\end_inset
+
+Parasite Machine
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\[
+P=(A,B,C,R,\Phi,m,\tau,d)
+\]
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{definition}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+This machine evolves:
+ 
+\begin_inset Formula 
+\[
+P'=\Psi(P)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\Psi$
+\end_inset
+
+ updates:
+ 
+\end_layout
+
+\begin_layout Itemize
+relation 
+\begin_inset Formula $R$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+implied relation 
+\end_layout
+
+\begin_layout Itemize
+mode 
+\begin_inset Formula $m$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+state 
+\begin_inset Formula $\tau$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+distance 
+\begin_inset Formula $d$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+positions 
+\begin_inset Formula $A,B,C$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section
+8.
+ Conceptual Consequences
+\end_layout
+
+\begin_layout Itemize
+Asymmetry is primitive 
+\end_layout
+
+\begin_layout Itemize
+Reciprocity is derived 
+\end_layout
+
+\begin_layout Itemize
+Representation is curvature 
+\end_layout
+
+\begin_layout Itemize
+The excluded middle becomes operative 
+\end_layout
+
+\begin_layout Itemize
+Structure emerges dynamically 
+\end_layout
+
+\begin_layout Section*
+Final Statement
+\end_layout
+
+\begin_layout Standard
+A world can be generated from asymmetric relations,
+ their implied returns,
+ and a third term that modulates their curvature,
+ without presupposing substance or conservation.
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+%dummy comment inserted by tex2lyx to ensure that this paragraph is not empty
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Appended Refinement:
+ Vertices as Internal Dynamical Fields
+\end_layout
+
+\begin_layout Subsection*
+Why this refinement is necessary
+\end_layout
+
+\begin_layout Standard
+The earlier formulation still permitted a residual simplification:
+ it treated the terms at the vertices of a relation as if they were places that 
+\emph on
+carried
+\emph default
+ state,
+ while the relation itself operated 
+\emph on
+between
+\emph default
+ them.
+\end_layout
+
+\begin_layout Standard
+That is no longer sufficient.
+\end_layout
+
+\begin_layout Standard
+If a relation genuinely transforms the terms that enter into it,
+ then the dynamics of the relation do not stop at the edge between nodes.
+ They continue 
+\emph on
+inside
+\emph default
+ the terms.
+\end_layout
+
+\begin_layout Standard
+This means that a vertex cannot be treated as a passive container.
+ It must itself be understood as a local field of ongoing dynamics.
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+The relation penetrates the term.
+ What looks like a node is really a fold of the same dynamic field from which the relation emerged.
+\end_layout
+
+\begin_layout Subsection*
+From positions to local fields
+\end_layout
+
+\begin_layout Standard
+Instead of writing:
+ 
+\begin_inset Formula 
+\[
+A=(\text{intensity},\text{memory})
+\]
+
+\end_inset
+
+we now write:
+ 
+\begin_inset Formula 
+\[
+A=\mathcal{F}_{A}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\mathcal{F}_{A}$
+\end_inset
+
+ is a local dynamical field.
+\end_layout
+
+\begin_layout Standard
+Likewise:
+ 
+\begin_inset Formula 
+\[
+B=\mathcal{F}_{B},\qquad C=\mathcal{F}_{C}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+A,
+ B,
+ and C are no longer merely positions in a simplex.
+ They are internally active regions.
+\end_layout
+
+\begin_layout Standard
+Each contains:
+ 
+\end_layout
+
+\begin_layout Itemize
+local intensities,
+ 
+\end_layout
+
+\begin_layout Itemize
+internal fluctuations,
+ 
+\end_layout
+
+\begin_layout Itemize
+persistence effects,
+ 
+\end_layout
+
+\begin_layout Itemize
+and potentially further parasitic structure.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Field–simplex coupling
+\end_layout
+
+\begin_layout Standard
+The simplex does not disappear.
+ Rather,
+ it is reinterpreted.
+\end_layout
+
+\begin_layout Standard
+We still have:
+ 
+\begin_inset Formula 
+\[
+P=(A,B,C)
+\]
+
+\end_inset
+
+but now:
+ 
+\begin_inset Formula 
+\[
+P\subset\mathcal{F}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\mathcal{F}$
+\end_inset
+
+ is a broader relational field.
+\end_layout
+
+\begin_layout Standard
+Each local parasite configuration is a stabilization within that field.
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+The simplex is a local crystallization of a larger field.
+ It is not cut off from that field.
+ It is one of the ways the field folds into temporary form.
+\end_layout
+
+\begin_layout Subsection*
+Relations now continue inside the vertex
+\end_layout
+
+\begin_layout Standard
+A relation does not only connect two fields externally.
+ It modifies them internally.
+\end_layout
+
+\begin_layout Standard
+So instead of only writing:
+ 
+\begin_inset Formula 
+\[
+R(A,B)
+\]
+
+\end_inset
+
+we must also write:
+ 
+\begin_inset Formula 
+\[
+\mathcal{F}_{A}'=\Psi_{A}(\mathcal{F}_{A},R(A,B))
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathcal{F}_{B}'=\Psi_{B}(\mathcal{F}_{B},R(A,B))
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+A is changed from within by relating to B.
+ B is changed from within by receiving A.
+ The relation is therefore not external to the terms.
+ It becomes part of their internal continuation.
+\end_layout
+
+\begin_layout Subsection*
+Recursive parasitic structure
+\end_layout
+
+\begin_layout Standard
+This yields a stronger claim.
+\end_layout
+
+\begin_layout Standard
+If each vertex is itself a local dynamical field,
+ then each vertex can itself contain parasite-like configurations.
+\end_layout
+
+\begin_layout Standard
+So:
+ 
+\begin_inset Formula 
+\[
+A=\mathcal{F}_{A}\supset P_{A}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+B=\mathcal{F}_{B}\supset P_{B}
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+C=\mathcal{F}_{C}\supset P_{C}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+The Parasite machine is not merely one local configuration among others.
+ It is a recurrent pattern of organization that can appear:
+ 
+\end_layout
+
+\begin_layout Itemize
+between vertices,
+ 
+\end_layout
+
+\begin_layout Itemize
+within vertices,
+ 
+\end_layout
+
+\begin_layout Itemize
+and between those internal configurations again.
+ 
+\end_layout
+
+\begin_layout Standard
+This means the machine both:
+ 
+\end_layout
+
+\begin_layout Itemize
+underlies a multiplicity of differently configured relations,
+ 
+\end_layout
+
+\begin_layout Itemize
+and pervades that multiplicity by continuing to operate within it.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Connection to multiplicity of power configurations
+\end_layout
+
+\begin_layout Standard
+This matters because no actual system is exhausted by one local simplex.
+\end_layout
+
+\begin_layout Standard
+A system may exhibit many locally configured dynamics:
+ 
+\end_layout
+
+\begin_layout Itemize
+power relations,
+ 
+\end_layout
+
+\begin_layout Itemize
+financial relations,
+ 
+\end_layout
+
+\begin_layout Itemize
+informational relations,
+ 
+\end_layout
+
+\begin_layout Itemize
+command relations,
+ 
+\end_layout
+
+\begin_layout Itemize
+resemblance or analogy structures,
+ 
+\end_layout
+
+\begin_layout Itemize
+and other metastable patterns not reducible to a single formal type.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+What has been built should therefore be read neither as one isolated triangle nor as one single ontology of relation.
+ It is better understood as a generative dynamic capable of producing many local configurations while also continuing to pass through them.
+\end_layout
+
+\begin_layout Subsection*
+Formal refinement of the machine
+\end_layout
+
+\begin_layout Standard
+The earlier machine was:
+ 
+\begin_inset Formula 
+\[
+P=(A,B,C,R,\Phi,m,\tau,d)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The refined machine becomes:
+ 
+\begin_inset Formula 
+\[
+P^{\star}=(\mathcal{F}_{A},\mathcal{F}_{B},\mathcal{F}_{C},R,\Phi,m,\tau,d)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where each 
+\begin_inset Formula $\mathcal{F}_{X}$
+\end_inset
+
+ is a local dynamical field rather than a passive position.
+\end_layout
+
+\begin_layout Standard
+And the update rule is no longer only:
+ 
+\begin_inset Formula 
+\[
+P'=\Psi(P)
+\]
+
+\end_inset
+
+but also:
+ 
+\begin_inset Formula 
+\[
+\mathcal{F}_{A}'=\Psi_{A}(\mathcal{F}_{A},R,C)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathcal{F}_{B}'=\Psi_{B}(\mathcal{F}_{B},R,C)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\mathcal{F}_{C}'=\Psi_{C}(\mathcal{F}_{C},R)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+The machine now acts at two scales at once:
+ 
+\end_layout
+
+\begin_layout Itemize
+it produces local relational form,
+ 
+\end_layout
+
+\begin_layout Itemize
+and it reshapes the internal fields that sustain that form.
+ 
+\end_layout
+
+\begin_layout Subsection*
+Computational refinement
+\end_layout
+
+\begin_layout Standard
+In the updated artifact,
+ this refinement is implemented by replacing passive positions with internal fields that have their own dynamics:
+ 
+\end_layout
+
+\begin_layout Itemize
+internal intensity,
+ 
+\end_layout
+
+\begin_layout Itemize
+memory,
+ 
+\end_layout
+
+\begin_layout Itemize
+noise,
+ 
+\end_layout
+
+\begin_layout Itemize
+and update rules driven by external relational influence.
+ 
+\end_layout
+
+\begin_layout Paragraph
+Narrative
+\end_layout
+
+\begin_layout Standard
+This is the crucial move:
+ the nodes no longer merely participate in the machine.
+ They are themselves made of the same sort of dynamics.
+\end_layout
+
+\begin_layout Subsection*
+Refined concluding statement
+\end_layout
+
+\begin_layout Standard
+The Parasite machine should now be understood as a dynamic that both:
+ 
+\end_layout
+
+\begin_layout Itemize
+underlies a multiplicity of variously configured dynamical relations,
+ 
+\end_layout
+
+\begin_layout Itemize
+and pervades that multiplicity by continuing to operate within the terms it generates.
+ 
+\end_layout
+
+\begin_layout Standard
+In this stronger formulation,
+ what appears as a vertex is never merely a point.
+ It is a locally stabilized field whose internal life remains open to further parasitic mediation.
+\end_layout
+
+\end_body
+\end_document

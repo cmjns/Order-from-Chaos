@@ -1,0 +1,560 @@
+#LyX 2.5 created this file. For more info see https://www.lyx.org/
+\lyxformat 643
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass amsbook
+\begin_preamble
+
+
+
+\title{The Parasite Machine: A Minimal Relational Logic}
+\author{}
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+enumitem
+\end_modules
+\maintain_unincluded_children no
+\language english
+\language_package none
+\inputencoding auto-legacy
+\fontencoding T1
+\font_roman "lmodern" "default"
+\font_sans "default" "default"
+\font_typewriter "lmodern" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_bookmarks false
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle false
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\crossref_package prettyref
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\backgroundcolor none
+\fontcolor none
+\notefontcolor lightgray
+\boxbgcolor red
+\table_border_color default
+\table_odd_row_color default
+\table_even_row_color default
+\table_alt_row_colors_start 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip halfline
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 1
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\docbook_mathml_version 0
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+maketitle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Abstract
+\end_layout
+
+\begin_layout Standard
+We define a minimal machine that operates on relations rather than substances.
+ It consists of a directed relation 
+\begin_inset Formula $A\rightarrow B$
+\end_inset
+
+ and a third position 
+\begin_inset Formula $C$
+\end_inset
+
+ that acts on the relation.
+ The third position (the parasite) can operate either as noise or as a metastable entity.
+ Roles 
+\begin_inset Formula $(A,B,C)$
+\end_inset
+
+ are not intrinsic and may permute suddenly and without warning.
+ A distance parameter controls the strength of 
+\begin_inset Formula $C$
+\end_inset
+
+'s action.
+ We show how this machine generates structure without conserved quantities or predefined ontology.
+\end_layout
+
+\begin_layout Standard
+The condition for role permutation remains unspecified.
+ The signatory of the concept (Michel Serres) does gives us suddenness,
+ circularity,
+ feedback,
+ sequence,
+ and interruption,
+ but no clear variable.
+\end_layout
+
+\begin_layout Section*
+1.
+ Primitive structure
+\end_layout
+
+\begin_layout Standard
+We begin with a directed relation:
+ 
+\begin_inset Formula 
+\[
+A\rightarrow B
+\]
+
+\end_inset
+
+and a third position 
+\begin_inset Formula $C$
+\end_inset
+
+ that acts on the relation:
+ 
+\begin_inset Formula 
+\[
+C\triangleright(A\rightarrow B).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Note:
+ 
+\begin_inset Formula $A,B,C$
+\end_inset
+
+ are positions within a relational configuration.
+ We will have more to say about the positions (also referred to as 
+\begin_inset Quotes xld
+\end_inset
+
+stations
+\begin_inset Quotes xrd
+\end_inset
+
+).
+ It will suffice for now to note that these positions are not occupied by substances but by metastable configurations.
+\end_layout
+
+\begin_layout Section*
+2.
+ Distance and coupling
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $d\ge0$
+\end_inset
+
+ denote the distance of 
+\begin_inset Formula $C$
+\end_inset
+
+ to the relation.
+ Define coupling:
+ 
+\begin_inset Formula 
+\[
+k=\frac{1}{d+\epsilon}.
+\]
+
+\end_inset
+
+As 
+\begin_inset Formula $d\to\infty$
+\end_inset
+
+,
+ 
+\begin_inset Formula $k\to0$
+\end_inset
+
+ (negligible influence).
+ As 
+\begin_inset Formula $d\to0$
+\end_inset
+
+,
+ 
+\begin_inset Formula $k\to\infty$
+\end_inset
+
+ (dominant influence).
+\end_layout
+
+\begin_layout Section*
+3.
+ Noise and metastability
+\end_layout
+
+\begin_layout Standard
+The third position 
+\begin_inset Formula $C$
+\end_inset
+
+ operates in two regimes:
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\series bold
+Noise
+\series default
+:
+ perturbative,
+ destabilizing.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Metastability
+\series default
+:
+ stabilized,
+ structuring.
+ 
+\end_layout
+
+\begin_layout Standard
+These are not distinct ontologies but regimes of the same position.
+\end_layout
+
+\begin_layout Section*
+4.
+ Transformation of relations
+\end_layout
+
+\begin_layout Standard
+Let 
+\begin_inset Formula $R(A,B)$
+\end_inset
+
+ denote the baseline relation strength.
+ Define a transformation:
+ 
+\begin_inset Formula 
+\[
+R'(A,B)=T(R(A,B),C,k).
+\]
+
+\end_inset
+
+Two cases:
+ 
+\begin_inset Formula 
+\begin{align*}
+\text{Noise: } & R'=R+\eta(C)\,k\\
+\text{Metastability: } & R'=R+\alpha\,C\,k
+\end{align*}
+
+\end_inset
+
+where 
+\begin_inset Formula $\eta$
+\end_inset
+
+ is a stochastic perturbation and 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ a scaling constant.
+\end_layout
+
+\begin_layout Section*
+5.
+ Role permutation
+\end_layout
+
+\begin_layout Standard
+Positions are not fixed.
+ Let 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ be a permutation:
+ 
+\begin_inset Formula 
+\[
+(A,B,C)\mapsto\sigma(A,B,C).
+\]
+
+\end_inset
+
+This encodes sudden reassignment of roles.
+\end_layout
+
+\begin_layout Section*
+6.
+ Iteration
+\end_layout
+
+\begin_layout Standard
+The machine evolves by iteration:
+ 
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+compute transformed relation 
+\begin_inset Formula $R'$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+update positions 
+\begin_inset Formula $(A,B,C)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+possibly permute roles 
+\end_layout
+
+\begin_layout Enumerate
+possibly adjust distance 
+\begin_inset Formula $d$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Formally:
+ 
+\begin_inset Formula 
+\[
+(A,B,C)_{t+1}=\Phi(A,B,C,d).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+7.
+ Emergence
+\end_layout
+
+\begin_layout Standard
+Without assuming:
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+conserved quantities,
+ 
+\end_layout
+
+\begin_layout Itemize
+substances,
+ 
+\end_layout
+
+\begin_layout Standard
+the system produces:
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+stable regimes,
+ 
+\end_layout
+
+\begin_layout Itemize
+clusters,
+ 
+\end_layout
+
+\begin_layout Itemize
+metastable entities,
+ 
+\end_layout
+
+\begin_layout Itemize
+shifting relations.
+ 
+\end_layout
+
+\begin_layout Section*
+8.
+ Interpretation
+\end_layout
+
+\begin_layout Standard
+The Parasite machine demonstrates:
+ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+structure emerges from relational transformation,
+ 
+\end_layout
+
+\begin_layout Itemize
+noise and entity are phase regimes,
+ 
+\end_layout
+
+\begin_layout Itemize
+roles are positional,
+ not intrinsic,
+ 
+\end_layout
+
+\begin_layout Itemize
+ontology is not presupposed but produced.
+ 
+\end_layout
+
+\begin_layout Section*
+9.
+ Final statement
+\end_layout
+
+\begin_layout Standard
+A system of relations,
+ perturbed and stabilized by a third term,
+ can generate entities and structure without recourse to conserved substance or fixed ontology.
+\end_layout
+
+\end_body
+\end_document

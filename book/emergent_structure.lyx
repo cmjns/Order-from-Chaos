@@ -1,0 +1,881 @@
+#LyX file created by tex2lyx 2.5
+\lyxformat 643
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin C:/Users/cjone/Development/repos/cmjns/Order_from_Chaos/book/
+\textclass article
+\begin_preamble
+
+
+
+\usepackage{amsthm}
+
+\title{Emergent Structure Without Conservation}
+\author{}
+
+
+
+\end_preamble
+\use_default_options false
+\begin_modules
+enumitem
+theorems-ams
+\end_modules
+\maintain_unincluded_children no
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding T1
+\font_roman "lmodern" "default"
+\font_sans "default" "default"
+\font_typewriter "lmodern" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref true
+\pdf_bookmarks 0
+\pdf_bookmarksnumbered 0
+\pdf_bookmarksopen 0
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks 0
+\pdf_pdfborder 0
+\pdf_colorlinks 0
+\pdf_backref false
+\pdf_pdfusetitle 0
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 2
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\crossref_package prettyref
+\use_minted 0
+\use_lineno false
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\docbook_mathml_version 0
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+maketitle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Overview
+\end_layout
+
+\begin_layout Standard
+We construct a minimal dynamical system that:
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+has no conserved quantities, 
+\end_layout
+
+\begin_layout Itemize
+assumes no substances, 
+\end_layout
+
+\begin_layout Itemize
+only has: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+state, 
+\end_layout
+
+\begin_layout Itemize
+transformation, 
+\end_layout
+
+\begin_layout Itemize
+observables, 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+and still produces: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+structure, 
+\end_layout
+
+\begin_layout Itemize
+persistence, 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Quotes eld
+\end_inset
+
+entities
+\begin_inset Quotes erd
+\end_inset
+
+ (via thresholds). 
+\end_layout
+
+\end_deeper
+\begin_layout Section*
+1. Define the system (no ontology)
+\end_layout
+
+\begin_layout Standard
+Let the state be 
+\begin_inset Formula \[
+x_t \in \mathbb{R}^n
+\]
+\end_inset
+
+and let the evolution be given by 
+\begin_inset Formula \[
+x_{t+1} = F(x_t).
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Choose a concrete example: 
+\begin_inset Formula \[
+x_{t+1} = \tanh(Ax_t) + \epsilon_t
+\]
+\end_inset
+
+where: 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula \(A\)
+\end_inset
+
+ is a random matrix, 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Formula \(\epsilon_t\)
+\end_inset
+
+ is noise. 
+\end_layout
+
+\begin_layout Standard
+Important properties: 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+nonlinear, 
+\end_layout
+
+\begin_layout Itemize
+stochastic, 
+\end_layout
+
+\begin_layout Itemize
+no conserved quantity, 
+\end_layout
+
+\begin_layout Itemize
+no symmetry assumed. 
+\end_layout
+
+\begin_layout Standard
+This is a pure transformation system.
+\end_layout
+
+\begin_layout Section*
+2. No 
+\begin_inset Quotes eld
+\end_inset
+
+stuff,
+\begin_inset Quotes erd
+\end_inset
+
+ only observables
+\end_layout
+
+\begin_layout Standard
+Define observables: 
+\begin_inset Formula \[
+g_i(x) = \text{any function of } x.
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Examples: 
+\begin_inset Formula \begin{align*}
+g_1(x) &= x_1 \\
+g_2(x) &= \|x\|^2 \\
+g_3(x) &= x_1 x_2
+\end{align*}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These are not substances. They are just ways of reading the system.
+\end_layout
+
+\begin_layout Section*
+3. Generate 
+\begin_inset Quotes eld
+\end_inset
+
+flows
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Each observable produces a time series: 
+\begin_inset Formula \[
+g_i(x_t).
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is the sense in which we use the word 
+\begin_inset Quotes eld
+\end_inset
+
+flow
+\begin_inset Quotes erd
+\end_inset
+
+ here: 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+not something moving as a substance, 
+\end_layout
+
+\begin_layout Itemize
+but a trajectory of a measurement. 
+\end_layout
+
+\begin_layout Section*
+4. Extract structure (no conservation needed)
+\end_layout
+
+\begin_layout Standard
+Now we detect structure using the following criteria.
+\end_layout
+
+\begin_layout Subsection*
+A. Persistence
+\end_layout
+
+\begin_layout Standard
+Find regions where the system stays for long times.
+\end_layout
+
+\begin_layout Subsection*
+B. Predictability
+\end_layout
+
+\begin_layout Standard
+Find observables 
+\begin_inset Formula \(g_i\)
+\end_inset
+
+ such that 
+\begin_inset Formula \[
+g_i(x_{t+1}) \approx f(g_i(x_t)).
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+C. Slow modes
+\end_layout
+
+\begin_layout Standard
+Find directions where change is slow.
+\end_layout
+
+\begin_layout Standard
+These correspond to: 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+metastability, 
+\end_layout
+
+\begin_layout Itemize
+Koopman modes, 
+\end_layout
+
+\begin_layout Itemize
+predictive coarse-graining. 
+\end_layout
+
+\begin_layout Section*
+5. Define 
+\begin_inset Quotes eld
+\end_inset
+
+entities
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Now define: 
+\begin_inset Formula \[
+E = \{x \mid g_i(x) > c\}.
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+But choose 
+\begin_inset Formula \(g_i\)
+\end_inset
+
+ and 
+\begin_inset Formula \(c\)
+\end_inset
+
+ by: 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+persistence, 
+\end_layout
+
+\begin_layout Itemize
+predictability. 
+\end_layout
+
+\begin_layout Standard
+Result: 
+\begin_inset Formula \[
+\text{entities} = \text{stable regions of observable space}.
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+6. Iteration (self-referential part)
+\end_layout
+
+\begin_layout Standard
+Now: 
+\end_layout
+
+\begin_layout Enumerate
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+choose observables 
+\begin_inset Formula \(g_i\)
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Enumerate
+evaluate: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+predictability, 
+\end_layout
+
+\begin_layout Itemize
+persistence, 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+update observables. 
+\end_layout
+
+\begin_layout Standard
+Formally: 
+\begin_inset Formula \[
+g^{(k+1)} = \mathcal{A}\bigl(g^{(k)}\bigr).
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This is selection without conservation.
+\end_layout
+
+\begin_layout Section*
+7. What emerges
+\end_layout
+
+\begin_layout Standard
+Even though we assumed: 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+no conserved quantities, 
+\end_layout
+
+\begin_layout Itemize
+no substances, 
+\end_layout
+
+\begin_layout Standard
+we still get: 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+clusters, 
+\end_layout
+
+\begin_layout Itemize
+regimes, 
+\end_layout
+
+\begin_layout Itemize
+slow dynamics, 
+\end_layout
+
+\begin_layout Itemize
+stable regions. 
+\end_layout
+
+\begin_layout Standard
+These look like: 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+entities,
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Quotes eld
+\end_inset
+
+flows.
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section*
+8. Important insight
+\end_layout
+
+\begin_layout Standard
+Nothing was conserved.
+\end_layout
+
+\begin_layout Standard
+Nothing was fundamental.
+\end_layout
+
+\begin_layout Standard
+Yet structure emerged anyway.
+\end_layout
+
+\begin_layout Section*
+9. Interpretation
+\end_layout
+
+\begin_layout Standard
+This shows: 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+conservation is not required, 
+\end_layout
+
+\begin_layout Itemize
+substance is not required. 
+\end_layout
+
+\begin_layout Standard
+What matters is: 
+\begin_inset Formula \[
+\text{structure in dynamics} + \text{selection over observables}.
+\]
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+10. Clean ontology
+\end_layout
+
+\begin_layout Standard
+We can now state it rigorously: 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+system 
+\begin_inset Formula \(=\)
+\end_inset
+
+ transformation 
+\begin_inset Formula \(F\)
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Itemize
+observables 
+\begin_inset Formula \(=\)
+\end_inset
+
+ functions 
+\begin_inset Formula \(g(x)\)
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Itemize
+flows 
+\begin_inset Formula \(=\)
+\end_inset
+
+ trajectories 
+\begin_inset Formula \(g(x_t)\)
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Itemize
+entities 
+\begin_inset Formula \(=\)
+\end_inset
+
+ thresholded regions of 
+\begin_inset Formula \(g\)
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Itemize
+significance 
+\begin_inset Formula \(=\)
+\end_inset
+
+ persistence 
+\begin_inset Formula \(+\)
+\end_inset
+
+ predictability. 
+\end_layout
+
+\begin_layout Section*
+11. What this proves
+\end_layout
+
+\begin_layout Standard
+You can: 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+build a model, 
+\end_layout
+
+\begin_layout Itemize
+extract structure, 
+\end_layout
+
+\begin_layout Itemize
+define entities, 
+\end_layout
+
+\begin_layout Standard
+without ever invoking: 
+\end_layout
+
+\begin_layout Itemize
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+leftmargin=2em
+\end_layout
+
+\end_inset
+
+conserved quantities, 
+\end_layout
+
+\begin_layout Itemize
+substances, 
+\end_layout
+
+\begin_layout Itemize
+fixed ontology. 
+\end_layout
+
+\begin_layout Section*
+Final statement
+\end_layout
+
+\begin_layout Standard
+This is the clean version of the idea:
+\end_layout
+
+\begin_layout Quote
+A world can emerge from pure dynamics and selection over observables, without any conserved 
+\begin_inset Quotes eld
+\end_inset
+
+stuff
+\begin_inset Quotes erd
+\end_inset
+
+ or predefined entities. 
+\end_layout
+
+\end_body
+\end_document
