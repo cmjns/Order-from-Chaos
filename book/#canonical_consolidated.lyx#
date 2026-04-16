@@ -1,0 +1,1362 @@
+#LyX 2.5 created this file. For more info see https://www.lyx.org/
+\lyxformat 643
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children no
+\language american
+\language_package default
+\inputencoding utf8
+\fontencoding auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize default
+\spacing onehalf
+\use_hyperref false
+\papersize letter
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification default
+\crossref_package refstyle
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\backgroundcolor none
+\fontcolor none
+\notefontcolor lightgray
+\boxbgcolor red
+\table_border_color default
+\table_odd_row_color default
+\table_even_row_color default
+\table_alt_row_colors_start 1
+\index Index
+\shortcut idx
+\color #008080
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip halfline
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content true
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\docbook_mathml_version 0
+\end_header
+
+\begin_body
+
+\begin_layout Section
+The virtual,
+ Multiplicity,
+ Intensity
+\end_layout
+
+\begin_layout Enumerate
+Genesis
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+What precedes motion does not move;
+ what precedes stillness is not still.
+\end_layout
+
+\begin_layout Enumerate
+What precedes asymmetry is not asymmetric;
+ what preceeds symmetry is not symmetrical.
+\end_layout
+
+\begin_layout Enumerate
+It must be so.
+ If it is not,
+ then there can be nothing new.
+\end_layout
+
+\begin_layout Enumerate
+If there can be nothing new,
+ then there can be no creator;
+ which is just a way of saying (whatever you may believe about such a thing) that there is no life but only death.
+ 
+\end_layout
+
+\begin_layout Enumerate
+But we know there is life,
+ and we know there is novelty,
+ and so what I have said must be true.
+\end_layout
+
+\begin_layout Enumerate
+This poetry is rigorous;
+ a poetic rigor.
+\end_layout
+
+\begin_layout Enumerate
+Where structure pre-exists novelty cannot arise
+\end_layout
+
+\begin_layout Enumerate
+Deleuze and Serres both point beyond representation as the locus of novelty.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Serres emphasizes that novelty cannot arise from a fully stabilized order;
+ 
+\end_layout
+
+\begin_layout Enumerate
+Deleuze emphasizes that what exceeds representation is not therefore unstructured,
+ but virtually and differentially articulated.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The tension between them is real,
+ but it is a tension inside a shared attempt to think genesis beyond representational capture.
+\end_layout
+
+\begin_layout Enumerate
+begin from a differential field or virtual multiplicity
+\end_layout
+
+\begin_layout Enumerate
+A black box,
+ a virtual multiplicity.
+ What can be said about that from which novelty arises?
+ Is it the case that we can do no more than subtract,
+ kill?
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+(Serres and Deleuze.
+ Serres's passage on 123 of Parasite.
+ The tetralemma gives an option out of negative theology.
+ This is the crux of the project.
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Multiplicity
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+The multiple
+\begin_inset Quotes erd
+\end_inset
+
+ is not
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+a set
+\end_layout
+
+\begin_layout Enumerate
+a collection
+\end_layout
+
+\begin_layout Enumerate
+a many with a prior,
+ unifying one
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Difference is not 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Difference with respect to something else,
+ but difference 
+\begin_inset Quotes eld
+\end_inset
+
+in itself
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+The multiple
+\begin_inset Quotes erd
+\end_inset
+
+ is
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Quotes eld
+\end_inset
+
+Pure difference
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Differential structuring of variables,
+ relations,
+ singular points
+\end_layout
+
+\begin_layout Enumerate
+intrinsically delimited by order and metric,
+ not external boundaries
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Idea is a
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+n-dimensional,
+ continuous,
+ defined multiplicity
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Virtual multiplicity is 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+field of unrealized differential potential
+\end_layout
+
+\begin_layout Enumerate
+Me:
+ individuals of a multiplicity are not separable from one another
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Serres may be at this level when he speaks of 
+\begin_inset Quotes eld
+\end_inset
+
+the integral of monads or of individuals
+\begin_inset Quotes erd
+\end_inset
+
+ in The Parasite (123)
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+In The Parasite,
+ Serres is not yet giving a formal ontology of multiplicity,
+ but he is directly posing the problem of how singular beings compose into a collective that is neither reducible to individuals nor graspable as a unified subject or object.
+\end_layout
+
+\begin_layout Enumerate
+So what is the import of using integral rather than differential
+\end_layout
+
+\begin_layout Enumerate
+Tetralemma
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The collective is differential:
+ It is nothing but local relations,
+ parasitic chains,
+ singular passages.
+\end_layout
+
+\begin_layout Enumerate
+The collective is integral:
+ It presents itself as a whole,
+ a “we,” a chorus,
+ an ark,
+ a black box.
+\end_layout
+
+\begin_layout Enumerate
+The collective is both differential and integral:
+ It is produced by local relations,
+ but it also has emergent effects irreducible to any one relation.
+\end_layout
+
+\begin_layout Enumerate
+The collective is neither purely differential nor purely integral:
+ It cannot be reduced either to atomistic local relations or to a transparent totality.
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Intensity
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+intensity as genetic operator of actualization
+\end_layout
+
+\begin_layout Enumerate
+intensity as implicated difference
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Intensity is “implicated in itself,” and difference in depth is composed of distances that are “indivisible asymmetrical relation[s],
+ ordinal and intensive in character.” 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+unequal,
+ ordinal,
+ asymmetrical relations are what drive the passage from virtual organization to actual form
+\end_layout
+
+\begin_layout Enumerate
+dissymmetry as positive,
+ not privative
+\end_layout
+
+\begin_layout Enumerate
+Dynamical Revision
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Intensity is the process by which some of those potentials begin to take on directional,
+ unequal,
+ kinetic articulation
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Bridge claim
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+the unequal is primary
+\end_layout
+
+\begin_layout Enumerate
+symmetry is not primitive here
+\end_layout
+
+\begin_layout Enumerate
+actualization is driven by intensity,
+ not neutral extension
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The dynamical revision
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Not things
+\end_layout
+
+\begin_layout Enumerate
+Not process
+\end_layout
+
+\begin_layout Enumerate
+Not functions
+\end_layout
+
+\begin_layout Enumerate
+Multiplicity is not a set of items but a field of differential potentials.
+\end_layout
+
+\begin_layout Enumerate
+Intensity is not a property but a mode of conditioned arising within that field.
+\end_layout
+
+\begin_layout Enumerate
+Topology is the articulation of those arisings into patterned constraints and pathways.
+\end_layout
+
+\begin_layout Enumerate
+Relation is a local abstraction from that articulated topology.
+\end_layout
+
+\begin_layout Enumerate
+Parasite is what modulates those relations because mediation is never pure.
+\end_layout
+
+\begin_layout Enumerate
+Tetralemma appears because mediated relation is never self-identical.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Manifolds,
+ Topology as the Articulation of Multiplicity
+\end_layout
+
+\begin_layout Standard
+Why multiplicity is manifold-like but not reducible to manifold
+\end_layout
+
+\begin_layout Enumerate
+logical connection,
+ not only etymological
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+manifold as formal intuition of internally structured variation
+\end_layout
+
+\begin_layout Enumerate
+multiplicity exceeds manifold because it includes virtuality,
+ singularity,
+ problematic structure
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Topology as articulation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+topology names articulated structure prior to formed objects
+\end_layout
+
+\begin_layout Enumerate
+internal variables,
+ relations,
+ singular points
+\end_layout
+
+\begin_layout Enumerate
+no privileged center
+\end_layout
+
+\begin_layout Enumerate
+topology as actualizable organization of multiplicity
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Projection / loss in actualization
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+actual manifold is a formalizable regime,
+ not the full virtual
+\end_layout
+
+\begin_layout Enumerate
+actualization is selective and lossy
+\end_layout
+
+\begin_layout Enumerate
+unrealized potentials remain in the virtual
+\end_layout
+
+\begin_layout Enumerate
+when formalizing manifold,
+ we formalize an actualized articulation,
+ not multiplicity in full
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Transition to relation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+relations are slices,
+ abstractions,
+ or readable extractions from topology
+\end_layout
+
+\begin_layout Enumerate
+relation is not primitive;
+ topology conditions relation
+\end_layout
+
+\begin_layout Enumerate
+relation = a local,
+ readable path or slice within that articulated topology
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Asymmetry of Relation (First component of Parasite)
+\end_layout
+
+\begin_layout Enumerate
+Directionality vs asymmetry
+\end_layout
+
+\begin_layout Enumerate
+keep these distinct
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+directionality = oriented articulation
+\end_layout
+
+\begin_layout Enumerate
+asymmetry = imbalance or non-equivalence of directional relations
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Grammar of relation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+“A relates to B” and “B relates to A” are different directional articulations
+\end_layout
+
+\begin_layout Enumerate
+grammar already implies orientation
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Equilibrium as composed directionality
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+symmetry is not absence of direction
+\end_layout
+
+\begin_layout Enumerate
+symmetry is a local balancing of directional relations
+\end_layout
+
+\begin_layout Enumerate
+fluctuation reveals already tensioned composition
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Stronger ontological claim
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+asymmetrical intensive difference conditions relational articulation
+\end_layout
+
+\begin_layout Enumerate
+symmetry is local,
+ achieved,
+ projected
+\end_layout
+
+\begin_layout Enumerate
+relation is conditioned by topological directionality/asymmetry
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Relation as Mediation (Second component of Parasite)
+\end_layout
+
+\begin_layout Enumerate
+Relation is not immediacy
+\end_layout
+
+\begin_layout Enumerate
+actual relation requires channel,
+ spacing,
+ delay,
+ passage
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+pure immediacy would erase relation as relation
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Mediation as constitutive
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+relation exists only as mediated relation
+\end_layout
+
+\begin_layout Enumerate
+mediation is not external to relation but constitutive of it
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Implied counter-relation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+reciprocity is not given
+\end_layout
+
+\begin_layout Enumerate
+return is implied according to mode
+\end_layout
+
+\begin_layout Enumerate
+relation folds back on itself differently under different regimes
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Bridge to parasite
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+once relation is mediation,
+ it is vulnerable to interruption,
+ deformation,
+ redirection
+\end_layout
+
+\begin_layout Enumerate
+this is where parasite becomes entailed
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Dynamics of Mediation:
+ Noise ↔ Signal Gradient
+\end_layout
+
+\begin_layout Enumerate
+Two senses of noise
+\end_layout
+
+\begin_layout Enumerate
+primordial / morphogenetic noise
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+relational / communicational noise
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Noise and signal as gradient
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+what counts as signal/noise depends on position,
+ channel,
+ context
+\end_layout
+
+\begin_layout Enumerate
+Serres’ table / hallway / telephone logic
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Structure and noise
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+structure does not simply oppose noise
+\end_layout
+
+\begin_layout Enumerate
+structure pervaded by noise
+\end_layout
+
+\begin_layout Enumerate
+relational structure and communicational noise co-constitute one another
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Parasite entailed by mediation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+no channel without noise
+\end_layout
+
+\begin_layout Enumerate
+parasite names constitutive non-immediacy of mediated relation
+\end_layout
+
+\begin_layout Enumerate
+parasite is not added later to pure relation
+\end_layout
+
+\begin_layout Enumerate
+parasite = a modulation,
+ drag,
+ capture,
+ redirection,
+ or turbulence internal to those paths
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Dynamics of Tetralemma
+\end_layout
+
+\begin_layout Enumerate
+Why the tetralemma is entailed
+\end_layout
+
+\begin_layout Enumerate
+not by asymmetry alone
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+by mediated,
+ parasitized,
+ non-self-identical relation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+binary relation/nonrelation becomes insufficient
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Relation,
+ nonrelation,
+ both,
+ neither
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+relation as constitutively split by noise/parasitism
+\end_layout
+
+\begin_layout Enumerate
+relation can no longer be self-identical
+\end_layout
+
+\begin_layout Enumerate
+tetralemma is appropriate logical form of mediated relation
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Tetralemma as state-space
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+not a truth table
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+dynamic traversal
+\end_layout
+
+\begin_layout Enumerate
+self-referential transitions rather than fixed corner choice
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Conics of the tetralemma
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+ellipse:
+ closure / mutual implication
+\end_layout
+
+\begin_layout Enumerate
+parabola:
+ one-sided drift / threshold
+\end_layout
+
+\begin_layout Enumerate
+hyperbola:
+ divergence / instability
+\end_layout
+
+\begin_layout Enumerate
+mixed:
+ transformation / ambiguity
+\end_layout
+
+\begin_layout Enumerate
+spiral:
+ recurrence,
+ re-entry,
+ self-reference,
+ no closure
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+instead of landing back on the same corner or cycling through the same four states identically,
+ we get repeated traversal with drift transformed by the traversal itself
+\end_layout
+
+\begin_layout Enumerate
+conics is instantaneous regime figures
+\end_layout
+
+\begin_layout Enumerate
+spiral = the figure of their iterative self-transformation through time
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Godel
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Important:
+ at this point Godel is an analogy.
+ To be more rigorous,
+ we'll need to do more work
+\end_layout
+
+\begin_layout Enumerate
+for any sufficiently strong,
+ consistent,
+ axiomatized formal system capable of basic arithmetic
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+there are statements expresssible in the system that are true but not provable within it
+\end_layout
+
+\begin_layout Enumerate
+and,
+ under standard conditions,
+ the system cannot prove its own consistency
+\end_layout
+
+\begin_layout Enumerate
+summary:
+ a sufficiently rich system cannot fully close over its own truth from within itself
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+The figure of Godel's system
+\end_layout
+
+\begin_layout Enumerate
+the system turns back on itself,
+ tries to totalize itself,
+ but cannot achieve closure.
+ So a remainder,
+ or excess appears
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Relation to the tetralemma
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Tetralemma already names affirmation,
+ negation,
+ both,
+ neither
+\end_layout
+
+\begin_layout Enumerate
+Godel suggests the traversal of these cannot close into a final stable totalization without remainder,
+ excess,
+ undecidability,
+ re-entry,
+ or a need to begin again from a shifted position
+\end_layout
+
+\begin_layout Enumerate
+The elipse is what representation wants;
+ the spiral is what self-referential dynamics actually produces
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+Spirals
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+the tetralemma is being modeled dynamically,
+ and conically
+\end_layout
+
+\begin_layout Enumerate
+this accounts for recurrence and reentry and self reference
+\end_layout
+
+\begin_layout Enumerate
+but we also say there is no closure
+\end_layout
+
+\begin_layout Enumerate
+thinking diagramaticly,
+ we don't 
+\begin_inset Quotes eld
+\end_inset
+
+land
+\begin_inset Quotes erd
+\end_inset
+
+ back on the same corner or cycle through the same four states eliptically.
+\end_layout
+
+\begin_layout Enumerate
+rather,
+ what we get is a repeated traversal with drift,
+ transformed by the traversal itself
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Spiral in motion
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+When we consider the dynamics of such a figure in one or both of the cone and the plane are in motion
+\end_layout
+
+\begin_layout Enumerate
+If the plane both rotates and oscilates then this would produce a two dimensional trace that looks like a wave
+\end_layout
+
+\begin_layout Enumerate
+This moves the figure from simple 
+\begin_inset Quotes eld
+\end_inset
+
+spiral
+\begin_inset Quotes erd
+\end_inset
+
+ to bounded,
+ returning spiral dynamic generated on a finite cone with limiting endpoints.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Because the fone is finite,
+ the motion cannot expand indefinitely.
+ It approaches a limit,
+ turns,
+ and returns.
+\end_layout
+
+\begin_layout Enumerate
+An elipse would be closue
+\end_layout
+
+\begin_layout Enumerate
+A spiral would be recurrent motion without exact return.
+\end_layout
+
+\begin_layout Enumerate
+The ave would be the visibile trace of that bounded recurrent motion when projected onto a lower-dimensional plane
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+For the tetralemma,
+ we now could say
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+In conic regimes,
+ when iterated in a bounded self-referential system,
+ generate a spiral-like path whose projection appears as a waave
+\end_layout
+
+\begin_layout Enumerate
+Not a closed formal totali
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Dynamics of Representation
+\end_layout
+
+\begin_layout Enumerate
+Representation is secondary
+\end_layout
+
+\begin_layout Enumerate
+representation is not primitive correspondence
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+it is a capture of a more primary dynamic field
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Tetralemma as generative of representation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+tetralemmatic instability pressures representation
+\end_layout
+
+\begin_layout Enumerate
+representation resolves or captures that instability
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Four shackles
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+identity
+\end_layout
+
+\begin_layout Enumerate
+opposition
+\end_layout
+
+\begin_layout Enumerate
+analogy
+\end_layout
+
+\begin_layout Enumerate
+resemblance
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+How they map
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+not strict one-to-one equivalence with tetralemma
+\end_layout
+
+\begin_layout Enumerate
+rather:
+ representational operators stabilize fourfold logical pressure
+\end_layout
+
+\begin_layout Enumerate
+identity stabilizes affirmation
+\end_layout
+
+\begin_layout Enumerate
+opposition stabilizes contradiction
+\end_layout
+
+\begin_layout Enumerate
+analogy/resemblance manage non-actual and indeterminate poles
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Dynamics of the Parasite (Parasite Revised)
+\end_layout
+
+\begin_layout Enumerate
+From simplex to field-first model
+\end_layout
+
+\begin_layout Enumerate
+objection to thumb-tacks-and-yarn image
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+simplex as coarse-grained projection
+\end_layout
+
+\begin_layout Enumerate
+parasite acts on field/topology first
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Vertices as internal dynamical fields
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+A,
+ B,
+ C as folds or local fields
+\end_layout
+
+\begin_layout Enumerate
+relation penetrates the vertex
+\end_layout
+
+\begin_layout Enumerate
+local terms are internally dynamic
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Role permutation
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+no intrinsic roles
+\end_layout
+
+\begin_layout Enumerate
+sudden permutation needs regime threshold,
+ not mere randomness
+\end_layout
+
+\begin_layout Enumerate
+possible variables:
+ gain,
+ instability,
+ scale-position,
+ inclusion/exclusion
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Distance / proximity regimes
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+far,
+ intermediate,
+ near-critical,
+ post-critical
+\end_layout
+
+\begin_layout Enumerate
+proximity changes kind of interaction,
+ not only strength
+\end_layout
+
+\begin_layout Enumerate
+role indeterminacy near singular proximity
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Open problem
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+how exactly parasite dynamics should be formalized after all revisions
+\end_layout
+
+\begin_layout Enumerate
+especially after field-first ontology and tetralemmatic grounding
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Dynamics of the Parasite (Take Two)
+\end_layout
+
+\begin_layout Enumerate
+As noise increases,
+ mediation becomes less efficient not simply by failing,
+ but by flattening the opposition that stabilizes terms and roles.
+ The configuration shifts from elliptical closure toward parabolic threshold.
+ In this state of minimum determination,
+ roles can switch because no position remains sufficiently self-identical to preserve the prior assignment.
+ At the same time,
+ the parasite ceases to appear as a discrete third term and becomes submerged in the field as distributed turbulence.
+ A dynamics of the tetralemma therefore implies a corresponding dynamics of the parasite.
+\end_layout
+
+\begin_layout Enumerate
+foregrounded parasite vs submerged parasite
+\end_layout
+
+\begin_layout Enumerate
+flattening of opposition under increasing noise
+\end_layout
+
+\begin_layout Enumerate
+parabolic threshold state
+\end_layout
+
+\begin_layout Enumerate
+minimum determination and role permutation
+\end_layout
+
+\begin_layout Enumerate
+redistribution of parasite into the field
+\end_layout
+
+\begin_layout Enumerate
+re-emergence or divergence after switch
+\end_layout
+
+\begin_layout Enumerate
+The open problem is:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+whether the parasite re-emerges after the switch as a localized third term,
+\end_layout
+
+\begin_layout Enumerate
+or whether in some regimes it stays distributed,
+\end_layout
+
+\begin_layout Enumerate
+or whether these are alternating phases.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+A Conclusion
+\end_layout
+
+\begin_layout Standard
+If I were God playing dice and spinning tops,
+ I might have made such a world as this:
+ a world of collisions,
+ drift,
+ thresholds,
+ and recursive returns–of patterned motion,
+ metastable form,
+ noisy mediation,
+ and local regimes of temporary coherence–a dice throw for contingency,
+ perturbation,
+ phase shifts,
+ and irriducible 
+\begin_inset Quotes eld
+\end_inset
+
+this throw not that one
+\begin_inset Quotes erd
+\end_inset
+
+–a spinning top for persistence,
+ precission,
+ balance through motion,
+ and collapse only after a long unstable endurance.
+ It would be a world in which order is real and active,
+ but never final–emergent structure persisting only as long as motion sustains it,
+ where every seeming closure is really a poised recurrence.
+ Not an architect's blueprint or a watchmaker's mechanism,
+ but a playful,
+ unstable,
+ generative cosmos where determination is real but incomplete,
+ and where the system keeps inventing itself through imbalance,
+ drift,
+ and return.
+ 
+\end_layout
+
+\end_body
+\end_document
